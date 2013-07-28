@@ -10,4 +10,6 @@
 
 @interface ScheduleViewController : UITableViewController
 
+@property (nonatomic, strong) NSMutableArray *titles;
+
 @end
