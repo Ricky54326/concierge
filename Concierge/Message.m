@@ -42,12 +42,34 @@
    
 }
 
-- (void)isMessageThere {
-    
+- (BOOL)isMessageThere {
+    __block BOOL isThere = NO;
+    PFQuery *tosend = [PFQuery queryWithClassName:@"message"];
+    [tosend whereKey:@"hacker_id" equalTo:self.hacker_id];
+    [tosend whereKey:@"leader_id" equalTo:self.leader_id];
+    [tosend whereKey:@"type" equalTo: self.type];
+    [tosend whereKey:@"request_type" equalTo:self.request_type];
+    [tosend whereKey:@"text" equalTo:self.text];
+    [tosend findObjectsInBackgroundWithBlock:^(NSArray *objects, NSError *error) {
+        if (!error) {
+            if (objects.count > 0) {
+                isThere = YES;
+            }
+        } else {
+            NSLog(@"Error: %@ %@", error, [error userInfo]);
+        }
+    }];
+    return isThere;
 }
 
 - (void)removeMessage {
-    
+    PFObject *tosend = [PFObject objectWithClassName:@"message"];
+    [tosend setObject: self.hacker_id forKey:@"hacker_id"];
+    [tosend setObject: self.leader_id forKey:@"leader_id"];
+    [tosend setObject: self.type forKey:@"type"];
+    [tosend setObject: self.request_type forKey:@"request_type"];
+    [tosend setObject: self.text forKey:@"text"];
+    [tosend deleteInBackground];
 }
 
 
