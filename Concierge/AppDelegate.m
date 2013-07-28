@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 #import "OpeningViewController.h"
+#import "ViewController.h"
+#import <Parse/Parse.h>
 
 #import "Person.h"
 
