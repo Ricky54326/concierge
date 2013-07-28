@@ -170,7 +170,7 @@
 	if ( [messageText.text length] > 0 ) {
 		NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
 		
-		NSString *url = [NSString stringWithFormat:@"http://localhost/chat/add.php"];
+		NSString *url = [NSString stringWithFormat:@"http://axchen.com/chat/add.php"];
 		
 		NSMutableURLRequest *request = [[NSMutableURLRequest alloc] init];
 		[request setURL:[NSURL URLWithString:url]];
