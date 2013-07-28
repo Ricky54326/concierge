@@ -165,15 +165,18 @@
     if (buttonIndex == 1) {
         //NSString* phoneNumber = [alertView textFieldAtIndex:0];
         //NSString* message = [alertView textFieldAtIndex:1];
+        NSLog(@"I should be running hello world");
         
         [PFCloud callFunctionInBackground:@"hello"
                            withParameters:@{}
                                     block:^(NSString *result, NSError *error) {
                                         if (!error) {
                                             // result is @"Hello world!"
+                                            NSLog(@"done fucked up");
                                         }
                                     }];
     }
+    NSLog(@"wahhhh");
 }
 
 
