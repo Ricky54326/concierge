@@ -9,9 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface TalkViewController : UITableViewController <UITableViewDataSource,UITableViewDelegate>	{
-	IBOutlet UITextField *messageText;
-	IBOutlet UIButton *sendButton;
-	IBOutlet UITableView *messageList;
+	IBOutlet UITextField* messageText;
+	IBOutlet UIButton* sendButton;
+	IBOutlet UITableView* messageList;
 	int lastId;
 	
 	NSMutableData *receivedData;
@@ -29,9 +29,9 @@
 	Boolean inUser;
 }
 
-@property (nonatomic,retain) UITextField *messageText;
-@property (nonatomic,retain) UIButton *sendButton;
-@property (nonatomic,retain) UITableView *messageList;
+@property (nonatomic,retain) UITextField* messageText;
+@property (nonatomic,retain) UIButton* sendButton;
+@property (nonatomic,retain) UITableView* messageList;
 
 - (IBAction)sendClicked:(id)sender;
 
