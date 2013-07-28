@@ -43,6 +43,10 @@
 		C09AEF6B17A518D600879A4C /* Default@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = C09AEF3417A4E66800879A4C /* Default@2x.png */; };
 		C09AEF6C17A518D600879A4C /* Default-568h@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = C09AEF3617A4E66800879A4C /* Default-568h@2x.png */; };
 		C09AEF6D17A518D600879A4C /* TalkViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = C09AEF4617A4EB9300879A4C /* TalkViewController.h */; };
+		C09AEF6E17A5194400879A4C /* Concierge.app in Sources */ = {isa = PBXBuildFile; fileRef = C09AEF1D17A4E66800879A4C /* Concierge.app */; };
+		C09AEF7517A519EC00879A4C /* Message.m in Sources */ = {isa = PBXBuildFile; fileRef = C09AEF7017A519EB00879A4C /* Message.m */; };
+		C09AEF7617A519EC00879A4C /* MessageUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = C09AEF7217A519EB00879A4C /* MessageUtil.m */; };
+		C09AEF7717A519EC00879A4C /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = C09AEF7417A519EC00879A4C /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -80,6 +84,12 @@
 		C09AEF5D17A5183900879A4C /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		C09AEF5F17A5184000879A4C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		C09AEF6117A518C200879A4C /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		C09AEF6F17A519EB00879A4C /* Message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Message.h; sourceTree = "<group>"; };
+		C09AEF7017A519EB00879A4C /* Message.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Message.m; sourceTree = "<group>"; };
+		C09AEF7117A519EB00879A4C /* MessageUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageUtil.h; sourceTree = "<group>"; };
+		C09AEF7217A519EB00879A4C /* MessageUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageUtil.m; sourceTree = "<group>"; };
+		C09AEF7317A519EB00879A4C /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		C09AEF7417A519EC00879A4C /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,6 +177,12 @@
 		C09AEF2717A4E66800879A4C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C09AEF6F17A519EB00879A4C /* Message.h */,
+				C09AEF7017A519EB00879A4C /* Message.m */,
+				C09AEF7117A519EB00879A4C /* MessageUtil.h */,
+				C09AEF7217A519EB00879A4C /* MessageUtil.m */,
+				C09AEF7317A519EB00879A4C /* Person.h */,
+				C09AEF7417A519EC00879A4C /* Person.m */,
 				C09AEF2817A4E66800879A4C /* Concierge-Info.plist */,
 				C09AEF2917A4E66800879A4C /* InfoPlist.strings */,
 				C09AEF2C17A4E66800879A4C /* main.m */,
@@ -244,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C09AEF6E17A5194400879A4C /* Concierge.app in Sources */,
 				C09AEF6317A518D600879A4C /* ScheduleViewController.h in Sources */,
 				C09AEF6417A518D600879A4C /* MentorViewController.h in Sources */,
 				C09AEF6517A518D600879A4C /* AppDelegate.h in Sources */,
@@ -262,6 +279,9 @@
 				C09AEF4817A4EB9300879A4C /* TalkViewController.m in Sources */,
 				C09AEF4B17A4EBAA00879A4C /* MentorViewController.m in Sources */,
 				C09AEF4E17A4EBB500879A4C /* ScheduleViewController.m in Sources */,
+				C09AEF7517A519EC00879A4C /* Message.m in Sources */,
+				C09AEF7617A519EC00879A4C /* MessageUtil.m in Sources */,
+				C09AEF7717A519EC00879A4C /* Person.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
