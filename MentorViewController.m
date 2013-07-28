@@ -163,7 +163,16 @@
 
 - (void)alertView:(UIAlertView *)alertView didDismissWithButtonIndex:(NSInteger)buttonIndex {
     if (buttonIndex == 1) {
+        //NSString* phoneNumber = [alertView textFieldAtIndex:0];
+        //NSString* message = [alertView textFieldAtIndex:1];
         
+        [PFCloud callFunctionInBackground:@"hello"
+                           withParameters:@{}
+                                    block:^(NSString *result, NSError *error) {
+                                        if (!error) {
+                                            // result is @"Hello world!"
+                                        }
+                                    }];
     }
 }
 
