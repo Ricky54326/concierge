@@ -23,6 +23,7 @@
 		C09AEF4B17A4EBAA00879A4C /* MentorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C09AEF4A17A4EBAA00879A4C /* MentorViewController.m */; };
 		C09AEF4E17A4EBB500879A4C /* ScheduleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C09AEF4D17A4EBB500879A4C /* ScheduleViewController.m */; };
 		C09AEF5017A50AD600879A4C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C09AEF4F17A50AD600879A4C /* QuartzCore.framework */; };
+		C1112B5017A520D10030D1A5 /* TalkViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1112B4F17A520D10030D1A5 /* TalkViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +52,7 @@
 		C09AEF4C17A4EBB500879A4C /* ScheduleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleViewController.h; sourceTree = "<group>"; };
 		C09AEF4D17A4EBB500879A4C /* ScheduleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleViewController.m; sourceTree = "<group>"; };
 		C09AEF4F17A50AD600879A4C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C1112B4F17A520D10030D1A5 /* TalkViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TalkViewController.xib; path = ../TalkViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 		C09AEF2617A4E66800879A4C /* Concierge */ = {
 			isa = PBXGroup;
 			children = (
+				C1112B4F17A520D10030D1A5 /* TalkViewController.xib */,
 				C09AEF2F17A4E66800879A4C /* AppDelegate.h */,
 				C09AEF3017A4E66800879A4C /* AppDelegate.m */,
 				C09AEF3817A4E66800879A4C /* ViewController.h */,
@@ -187,6 +190,7 @@
 				C09AEF3517A4E66800879A4C /* Default@2x.png in Resources */,
 				C09AEF3717A4E66800879A4C /* Default-568h@2x.png in Resources */,
 				C09AEF3D17A4E66800879A4C /* ViewController.xib in Resources */,
+				C1112B5017A520D10030D1A5 /* TalkViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
