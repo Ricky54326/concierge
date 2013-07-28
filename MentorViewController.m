@@ -33,7 +33,7 @@
     
     [self.titles addObject:@"Organizers"];
     
-    PFQuery *query = [PFQuery queryWithClassName:@"person"];
+    PFQuery *query = [PFQuery queryWithClassName:@"sponsors"];
     [query findObjectsInBackgroundWithBlock:^(NSArray *objects, NSError *error) {
         if (!error) {
             // The find succeeded.
