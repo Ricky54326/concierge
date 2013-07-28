@@ -32,15 +32,15 @@
     //self.titles = [[NSMutableArray alloc] initWithObjects:@"blah1",@"blah2", nil];
     self.titles = [[NSMutableArray alloc] init];
     
-    PFQuery *query = [PFQuery queryWithClassName:@"food"];
+    PFQuery *query = [PFQuery queryWithClassName:@"tech"];
     [query findObjectsInBackgroundWithBlock:^(NSArray *objects, NSError *error) {
         if (!error) {
             // The find succeeded.
             NSLog(@"Successfully retrieved %d scores.", objects.count);
             // Do something with the found objects
             for (PFObject *object in objects) {
-                NSLog(@"%@", [object objectForKey:@"foodName"]);
-                [self.titles addObject:[object objectForKey:@"foodName"]];
+                NSLog(@"%@", [object objectForKey:@"name"]);
+                [self.titles addObject:[object objectForKey:@"name"]];
             }
             [self.tableView reloadData];
         } else {
