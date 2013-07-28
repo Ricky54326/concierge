@@ -11,6 +11,7 @@
 #import "TalkViewController.h"
 #import "MentorViewController.h"
 #import "ScheduleViewController.h"
+#import "GetServedViewController.h"
 #import <QuartzCore/QuartzCore.h>
 
 @interface ViewController ()
@@ -41,7 +42,7 @@
 }
 
 -(IBAction)comeHitherButtonPressed:(id)sender {
-    UIViewController *vc = [[ComeHitherVC alloc] initWithStyle:UITableViewStylePlain];
+    UIViewController *vc = [[GetServedViewController alloc] initWithNibName:nil bundle:nil];
     
     [self.navigationController pushViewController:vc animated:YES];
 }
