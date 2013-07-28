@@ -11,6 +11,7 @@
 #import "TalkViewController.h"
 #import "MentorViewController.h"
 #import "ScheduleViewController.h"
+#import <QuartzCore/QuartzCore.h>
 
 @interface ViewController ()
 
@@ -22,8 +23,9 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    self.view.backgroundColor = [UIColor colorWithRed:176.0/255.0 green:226.0/255.0 blue:255.0/255.0 alpha:1.0];
-    NSTimer *timer = [NSTimer scheduledTimerWithTimeInterval:1.0 target:self selector:@selector(timerTick:) userInfo:nil repeats:YES];
+    
+    NSTimer *timer = [NSTimer scheduledTimerWithTimeInterval:.02 target:self selector:@selector(timerTick:) userInfo:nil repeats:YES];
+    hackDate = [NSDate dateWithTimeIntervalSinceNow:1*60*60*10];
 }
 
 - (void)didReceiveMemoryWarning
@@ -59,20 +61,18 @@
 - (void)timerTick:(NSTimer *)timer {
     NSDate *now = [NSDate date];
     
-    NSDateFormatter *hackDateFormatter;
-    [hackDateFormatter setDateFormat:@"LLL dd hh mm"];
-    NSDate *hackDate = [hackDateFormatter dateFromString:@"Oct 06 07 00"];
-    
-    NSTimeInterval *difference = [hackDate timeIntervalSinceDate:now];
+    NSTimeInterval difference = [hackDate timeIntervalSinceDate:now];
     
     static NSDateFormatter *dateFormatter;
     if (!dateFormatter) {
         dateFormatter = [[NSDateFormatter alloc] init];
         dateFormatter.dateFormat = @"h:mm:ss a"; 
     }
+    int s = (int)difference % 60;
+    int m = (int)difference/60%60;
+    int h = (int)difference/3600;
     
-    
-    timerLabel.text = [NSString stringWithFormat:@"%f", difference];
+    timerLabel.text = [NSString stringWithFormat:@"%i : %i : %i", h, m, s];
 }
 
 @end

@@ -22,6 +22,7 @@
 		C09AEF4817A4EB9300879A4C /* TalkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C09AEF4717A4EB9300879A4C /* TalkViewController.m */; };
 		C09AEF4B17A4EBAA00879A4C /* MentorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C09AEF4A17A4EBAA00879A4C /* MentorViewController.m */; };
 		C09AEF4E17A4EBB500879A4C /* ScheduleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C09AEF4D17A4EBB500879A4C /* ScheduleViewController.m */; };
+		C09AEF5017A50AD600879A4C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C09AEF4F17A50AD600879A4C /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +50,7 @@
 		C09AEF4A17A4EBAA00879A4C /* MentorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MentorViewController.m; sourceTree = "<group>"; };
 		C09AEF4C17A4EBB500879A4C /* ScheduleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleViewController.h; sourceTree = "<group>"; };
 		C09AEF4D17A4EBB500879A4C /* ScheduleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleViewController.m; sourceTree = "<group>"; };
+		C09AEF4F17A50AD600879A4C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C09AEF5017A50AD600879A4C /* QuartzCore.framework in Frameworks */,
 				C09AEF2117A4E66800879A4C /* UIKit.framework in Frameworks */,
 				C09AEF2317A4E66800879A4C /* Foundation.framework in Frameworks */,
 				C09AEF2517A4E66800879A4C /* CoreGraphics.framework in Frameworks */,
@@ -68,6 +71,7 @@
 		C09AEF1417A4E66800879A4C = {
 			isa = PBXGroup;
 			children = (
+				C09AEF4F17A50AD600879A4C /* QuartzCore.framework */,
 				C09AEF4C17A4EBB500879A4C /* ScheduleViewController.h */,
 				C09AEF4D17A4EBB500879A4C /* ScheduleViewController.m */,
 				C09AEF4917A4EBAA00879A4C /* MentorViewController.h */,

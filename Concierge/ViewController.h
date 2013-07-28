@@ -10,6 +10,11 @@
 
 @interface ViewController : UIViewController {
     IBOutlet UILabel *timerLabel;
+    NSDate *hackDate;
+    IBOutlet UIButton *chatButton;
+    IBOutlet UIButton *comeHitherButton;
+    IBOutlet UIButton *mentorButton;
+    IBOutlet UIButton *scheduleButton;
 }
 
 -(IBAction)talkButtonPressed:(id)sender;
