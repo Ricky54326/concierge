@@ -24,7 +24,7 @@
 	// Do any additional setup after loading the view, typically from a nib.
     
     NSTimer *timer = [NSTimer scheduledTimerWithTimeInterval:.02 target:self selector:@selector(timerTick:) userInfo:nil repeats:YES];
-    hackDate = [NSDate dateWithTimeIntervalSinceNow:1*60*60*10];
+    hackDate = [NSDate dateWithTimeIntervalSinceNow:5728];
 }
 
 - (void)didReceiveMemoryWarning
