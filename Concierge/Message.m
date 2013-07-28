@@ -16,7 +16,7 @@
 @synthesize request_type = _request_type;
 @synthesize text = _text;
 
-- (id)initWithType:(NSString *)hacker_id andLeader:(NSString *)leader_id andType:(NSString *)type andRequestType: (NSString *)request_type andText: (NSString*)text {
+- (id)initWithHacker:(NSString *)hacker_id andLeader:(NSString *)leader_id andType:(NSString *)type andRequestType: (NSString *)request_type andText: (NSString*)text {
     
     if ((self = [super init]))
 	{

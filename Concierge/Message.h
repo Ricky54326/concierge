@@ -18,7 +18,7 @@
 @property (nonatomic, strong) NSString *request_type; // tech, food, etc
 @property (nonatomic, retain) NSString *text; // text of message
 
-- (id)initWithType:(NSString *)hacker_id andLeader:(NSString *)leader_id andType:(NSString *)type andRequestType: (NSString *)request_type andText: (NSString*)text;
+- (id)initWithHacker:(NSString *)hacker_id andLeader:(NSString *)leader_id andType:(NSString *)type andRequestType: (NSString *)request_type andText: (NSString*)text;
 - (void)send;
 - (BOOL)isMessageThere;
 - (void)removeMessage;
