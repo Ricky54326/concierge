@@ -29,6 +29,7 @@
 	Boolean inUser;
 }
 
+
 @property (nonatomic,retain) UITextField *messageText;
 @property (nonatomic,retain) UIButton *sendButton;
 @property (nonatomic,retain) UITableView *messageList;
