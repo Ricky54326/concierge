@@ -92,6 +92,7 @@
 		C09AF00617A5731800879A4C /* OpeningViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C09AF00517A5731800879A4C /* OpeningViewController.xib */; };
 		C09AF4EB17A57B7900879A4C /* GetServedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C09AF4EA17A57B7900879A4C /* GetServedViewController.xib */; };
 		C09AF4ED17A57BC000879A4C /* tech.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C09AF4EC17A57BC000879A4C /* tech.jpg */; };
+		C09AF4EF17A58B2D00879A4C /* TalkViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C09AF4EE17A58B2D00879A4C /* TalkViewController.xib */; };
 		EAC08B4817A5887D00023D84 /* TalkViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAC08B4717A5887D00023D84 /* TalkViewController.xib */; };
 /* End PBXBuildFile section */
 
@@ -170,6 +171,7 @@
 		C09AF00517A5731800879A4C /* OpeningViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OpeningViewController.xib; sourceTree = "<group>"; };
 		C09AF4EA17A57B7900879A4C /* GetServedViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GetServedViewController.xib; sourceTree = "<group>"; };
 		C09AF4EC17A57BC000879A4C /* tech.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tech.jpg; sourceTree = "<group>"; };
+		C09AF4EE17A58B2D00879A4C /* TalkViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TalkViewController.xib; sourceTree = "<group>"; };
 		EAC08B4717A5887D00023D84 /* TalkViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TalkViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -309,6 +311,7 @@
 				C09AEF3B17A4E66800879A4C /* ViewController.xib */,
 				C09AF00317A56F3400879A4C /* MentorView.xib */,
 				C09AF00517A5731800879A4C /* OpeningViewController.xib */,
+				C09AF4EE17A58B2D00879A4C /* TalkViewController.xib */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -410,6 +413,7 @@
 				C09AF4EB17A57B7900879A4C /* GetServedViewController.xib in Resources */,
 				C09AF4ED17A57BC000879A4C /* tech.jpg in Resources */,
 				EAC08B4817A5887D00023D84 /* TalkViewController.xib in Resources */,
+				C09AF4EF17A58B2D00879A4C /* TalkViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -31,7 +31,7 @@
     //self.titles = [[NSMutableArray alloc] initWithObjects:@"blah1",@"blah2", nil];
     self.titles = [[NSMutableArray alloc] init];
     
-    [self.titles addObject:@"Organizers"];
+    [self.titles addObject:@"Event Organizers"];
     
     PFQuery *query = [PFQuery queryWithClassName:@"sponsors"];
     [query findObjectsInBackgroundWithBlock:^(NSArray *objects, NSError *error) {
@@ -86,8 +86,8 @@
     if (cell==nil) {
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
         [cell setSelectionStyle:UITableViewCellSelectionStyleNone];
-
         
+        cell.textLabel.font = [UIFont fontWithName:@"HelveticaNeue-Light" size:17.0];
     }
     
     cell.textLabel.text = [self.titles objectAtIndex:indexPath.row];

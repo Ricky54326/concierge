@@ -35,6 +35,7 @@
     self.endTimes = [[NSMutableArray alloc] init];
     
     PFQuery *query = [PFQuery queryWithClassName:@"event"];
+    [query orderByAscending:@"start_time"];
     [query findObjectsInBackgroundWithBlock:^(NSArray *objects, NSError *error) {
         if (!error) {
             // The find succeeded.
@@ -52,7 +53,7 @@
             NSLog(@"Error: %@ %@", error, [error userInfo]);
         }
     }];
-    
+
     [self.tableView reloadData];
 }
 
@@ -86,6 +87,7 @@
     // Configure the cell...
     if (cell==nil) {
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:CellIdentifier];
+        [cell setSelectionStyle:UITableViewCellSelectionStyleNone];
     }
     
     cell.textLabel.text = [self.titles objectAtIndex:indexPath.row];
@@ -94,6 +96,9 @@
                              [self formatDate:[self.endTimes objectAtIndex:indexPath.row]]];
     NSLog(timesString);
     cell.detailTextLabel.text = timesString;
+    
+    cell.textLabel.font = [UIFont fontWithName:@"HelveticaNeue-Light" size:17.0];
+    cell.detailTextLabel.font = [UIFont fontWithName:@"HelveticaNeue-Light" size:12.0];
     return cell;
 }
 
