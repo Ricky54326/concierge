@@ -49,6 +49,7 @@
 		C09AEF7717A519EC00879A4C /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = C09AEF7417A519EC00879A4C /* Person.m */; };
 		EAC08B3D17A51EC000023D84 /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC08B3A17A51EC000023D84 /* Event.m */; };
 		EAC08B3E17A51EC000023D84 /* EventUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC08B3C17A51EC000023D84 /* EventUtil.m */; };
+		EAC08B4117A5219900023D84 /* ParseUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC08B4017A5219900023D84 /* ParseUtil.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -96,6 +97,8 @@
 		EAC08B3A17A51EC000023D84 /* Event.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Event.m; sourceTree = "<group>"; };
 		EAC08B3B17A51EC000023D84 /* EventUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventUtil.h; sourceTree = "<group>"; };
 		EAC08B3C17A51EC000023D84 /* EventUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventUtil.m; sourceTree = "<group>"; };
+		EAC08B3F17A5219900023D84 /* ParseUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParseUtil.h; sourceTree = "<group>"; };
+		EAC08B4017A5219900023D84 /* ParseUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParseUtil.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -200,6 +203,8 @@
 				C09AEF3217A4E66800879A4C /* Default.png */,
 				C09AEF3417A4E66800879A4C /* Default@2x.png */,
 				C09AEF3617A4E66800879A4C /* Default-568h@2x.png */,
+				EAC08B3F17A5219900023D84 /* ParseUtil.h */,
+				EAC08B4017A5219900023D84 /* ParseUtil.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -294,6 +299,7 @@
 				C09AEF7717A519EC00879A4C /* Person.m in Sources */,
 				EAC08B3D17A51EC000023D84 /* Event.m in Sources */,
 				EAC08B3E17A51EC000023D84 /* EventUtil.m in Sources */,
+				EAC08B4117A5219900023D84 /* ParseUtil.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
