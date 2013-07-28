@@ -7,6 +7,7 @@
 //
 
 #import "OpeningViewController.h"
+#import "ViewController.h"
 #import <Parse/Parse.h>
 
 @interface OpeningViewController ()
@@ -21,17 +22,6 @@
     if (self) {
         // Custom initialization
     }
-    [PFTwitterUtils logInWithBlock:^(PFUser *user, NSError *error) {
-        if (!user) {
-            NSLog(@"Uh oh. The user cancelled the Twitter login.");
-            return;
-        } else if (user.isNew) {
-            NSLog(@"User signed up and logged in with Twitter!");
-        } else {
-            NSLog(@"User logged in with Twitter!");
-        }     
-    }];
-    
     return self;
 }
 
@@ -45,6 +35,39 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+-(IBAction)loginWithTwitter:(id)sender {
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Enter your login info."
+                                          message: @""
+                                          delegate:self
+                                          cancelButtonTitle:@"Cancel"
+                                          otherButtonTitles:@"Login",nil];
+    [alert setAlertViewStyle:UIAlertViewStyleLoginAndPasswordInput];
+    [[alert textFieldAtIndex:1] setSecureTextEntry:NO];
+    [alert show];    
+}
+
+- (void)alertView:(UIAlertView *)alertView didDismissWithButtonIndex:(NSInteger)buttonIndex {
+    if (buttonIndex == 0) {
+        NSLog(@"Cancel Tapped.");
+    }
+    else if (buttonIndex == 1) {
+        [PFTwitterUtils initializeWithConsumerKey:@"test" consumerSecret:@"test"];
+        [PFTwitterUtils logInWithBlock:^(PFUser *user, NSError *error) {
+            if (!user) {
+                NSLog(@"Uh oh. The user cancelled the Twitter login.");
+                return;
+            } else if (user.isNew) {
+                NSLog(@"User signed up and logged in with Twitter!");
+            } else {
+                NSLog(@"User logged in with Twitter!");
+            }
+        }];
+        UIViewController *vc = [[ViewController alloc] initWithNibName:nil bundle:nil];
+        
+        [self.navigationController pushViewController:vc animated:YES];
+    }
 }
 
 @end
