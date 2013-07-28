@@ -30,7 +30,7 @@
 // Getting the message
 
 - (void)getNewMessages {
-	NSString *url = [NSString stringWithFormat:@"http://localhost/chat/messages.php?past=%ld&t=%ld",
+	NSString *url = [NSString stringWithFormat:@"http://axchen.com/chat/messages.php?past=%ld&t=%ld",
 					 lastId, time(0) ];
 	
 	NSMutableURLRequest *request = [[NSMutableURLRequest alloc] init];
