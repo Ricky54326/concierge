@@ -36,12 +36,14 @@
     [query findObjectsInBackgroundWithBlock:^(NSArray *objects, NSError *error) {
         if (!error) {
             // The find succeeded.
-            NSLog(@"Successfully retrieved %d scores.", objects.count);
+            NSLog(@"Successfully retrieved %d events.", objects.count);
             // Do something with the found objects
             for (PFObject *object in objects) {
                 NSLog(@"%@", [object objectForKey:@"name"]);
                 [self.titles addObject:[object objectForKey:@"name"]];
                 [self.startTimes addObject:[object objectForKey:@"start_time"]];
+                NSLog(@"%@",[object objectForKey:@"start_time"]);
+                NSLog(@"%@",[self.startTimes objectAtIndex:[self.startTimes count]-1]);
                 [self.endTimes addObject:[object objectForKey:@"end_time"]];
             }
             [self.tableView reloadData];
