@@ -35,6 +35,7 @@
     self.endTimes = [[NSMutableArray alloc] init];
     
     PFQuery *query = [PFQuery queryWithClassName:@"event"];
+    [query orderByAscending:@"start_time"];
     [query findObjectsInBackgroundWithBlock:^(NSArray *objects, NSError *error) {
         if (!error) {
             // The find succeeded.
@@ -86,6 +87,7 @@
     // Configure the cell...
     if (cell==nil) {
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:CellIdentifier];
+        [cell setSelectionStyle:UITableViewCellSelectionStyleNone];
     }
     
     cell.textLabel.text = [self.titles objectAtIndex:indexPath.row];
