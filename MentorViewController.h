@@ -9,7 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface MentorViewController : UITableViewController {
-    IBOutlet UIView *view;
 }
 
 @property (nonatomic, strong) NSMutableArray *titles;
