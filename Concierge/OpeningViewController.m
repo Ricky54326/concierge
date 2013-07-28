@@ -44,7 +44,6 @@
                                           cancelButtonTitle:@"Cancel"
                                           otherButtonTitles:@"Login",nil];
     [alert setAlertViewStyle:UIAlertViewStyleLoginAndPasswordInput];
-    [[alert textFieldAtIndex:1] setSecureTextEntry:NO];
     [alert show];    
 }
 
@@ -53,15 +52,15 @@
         NSLog(@"Cancel Tapped.");
     }
     else if (buttonIndex == 1) {
-        [PFTwitterUtils initializeWithConsumerKey:@"test" consumerSecret:@"test"];
+        [PFTwitterUtils initializeWithConsumerKey:[alertView textFieldAtIndex:0].text consumerSecret:[alertView textFieldAtIndex:1].text];
         [PFTwitterUtils logInWithBlock:^(PFUser *user, NSError *error) {
             if (!user) {
-                NSLog(@"Uh oh. The user cancelled the Twitter login.");
+                //NSLog(@"Uh oh. The user cancelled the Twitter login.");
                 return;
             } else if (user.isNew) {
-                NSLog(@"User signed up and logged in with Twitter!");
+                //NSLog(@"User signed up and logged in with Twitter!");
             } else {
-                NSLog(@"User logged in with Twitter!");
+                //NSLog(@"User logged in with Twitter!");
             }
         }];
         UIViewController *vc = [[ViewController alloc] initWithNibName:nil bundle:nil];

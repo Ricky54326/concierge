@@ -11,15 +11,15 @@
 @interface ViewController : UIViewController {
     IBOutlet UILabel *timerLabel;
     NSDate *hackDate;
-    IBOutlet UIButton *chatButton;
+    IBOutlet UIButton *talkButton;
     IBOutlet UIButton *comeHitherButton;
-    IBOutlet UIButton *mentorButton;
+    IBOutlet UIButton *socialButton;
     IBOutlet UIButton *scheduleButton;
 }
 
 -(IBAction)talkButtonPressed:(id)sender;
 -(IBAction)comeHitherButtonPressed:(id)sender;
--(IBAction)mentorButtonPressed:(id)sender;
+-(IBAction)socialButtonPressed:(id)sender;
 -(IBAction)scheduleButtonPressed:(id)sender;
 
 @end

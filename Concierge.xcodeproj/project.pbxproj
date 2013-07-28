@@ -61,37 +61,10 @@
 		C09AEFAB17A537A400879A4C /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C09AEFAA17A537A400879A4C /* Social.framework */; };
 		C09AEFAD17A539E600879A4C /* twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = C09AEFAC17A539E500879A4C /* twitter.png */; };
 		C09AEFB017A53A1800879A4C /* Twitter.m in Sources */ = {isa = PBXBuildFile; fileRef = C09AEFAF17A53A1800879A4C /* Twitter.m */; };
-		C09AEFB117A53AB500879A4C /* twitter.png in Sources */ = {isa = PBXBuildFile; fileRef = C09AEFAC17A539E500879A4C /* twitter.png */; };
-		C09AEFB217A53AB500879A4C /* coffee.jpg in Sources */ = {isa = PBXBuildFile; fileRef = C09AEFA817A5347C00879A4C /* coffee.jpg */; };
-		C09AEFB317A53AB500879A4C /* food.jpg in Sources */ = {isa = PBXBuildFile; fileRef = C09AEF8517A51F1200879A4C /* food.jpg */; };
-		C09AEFB417A53AB500879A4C /* Screen Shot 2013-07-28 at 2.41.52 AM.png in Sources */ = {isa = PBXBuildFile; fileRef = C09AEF8317A51F0900879A4C /* Screen Shot 2013-07-28 at 2.41.52 AM.png */; };
-		C09AEFB517A53AB500879A4C /* hackmit.jpg in Sources */ = {isa = PBXBuildFile; fileRef = C09AEF9717A52E9800879A4C /* hackmit.jpg */; };
-		C09AEFB617A53AB500879A4C /* clock.jpg in Sources */ = {isa = PBXBuildFile; fileRef = C09AEF9517A52E9000879A4C /* clock.jpg */; };
-		C09AEFB717A53AB500879A4C /* GetServedViewController.xib in Sources */ = {isa = PBXBuildFile; fileRef = C09AEF8017A51CD500879A4C /* GetServedViewController.xib */; };
-		C09AEFB817A53AB500879A4C /* OpeningViewController.xib in Sources */ = {isa = PBXBuildFile; fileRef = C09AEF8F17A5292500879A4C /* OpeningViewController.xib */; };
-		C09AEFB917A53AB500879A4C /* Message.h in Sources */ = {isa = PBXBuildFile; fileRef = C09AEF6F17A519EB00879A4C /* Message.h */; };
-		C09AEFBA17A53AB500879A4C /* MessageUtil.h in Sources */ = {isa = PBXBuildFile; fileRef = C09AEF7117A519EB00879A4C /* MessageUtil.h */; };
-		C09AEFBB17A53AB500879A4C /* Person.h in Sources */ = {isa = PBXBuildFile; fileRef = C09AEF7317A519EB00879A4C /* Person.h */; };
-		C09AEFBC17A53AB500879A4C /* GetServedViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = C09AEF7E17A51CD500879A4C /* GetServedViewController.h */; };
-		C09AEFBD17A53AB500879A4C /* OpeningViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = C09AEF8D17A5292500879A4C /* OpeningViewController.h */; };
-		C09AEFBE17A53AB500879A4C /* GetFoodViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = C09AEF9E17A532CA00879A4C /* GetFoodViewController.h */; };
-		C09AEFBF17A53AB500879A4C /* GetFoodViewController.xib in Sources */ = {isa = PBXBuildFile; fileRef = C09AEFA017A532CA00879A4C /* GetFoodViewController.xib */; };
-		C09AEFC017A53AB500879A4C /* GetTechViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = C09AEFA317A532FB00879A4C /* GetTechViewController.h */; };
-		C09AEFC117A53AB500879A4C /* GetTechViewController.xib in Sources */ = {isa = PBXBuildFile; fileRef = C09AEFA517A532FB00879A4C /* GetTechViewController.xib */; };
-		C09AEFC217A53AB500879A4C /* Twitter.h in Sources */ = {isa = PBXBuildFile; fileRef = C09AEFAE17A53A1800879A4C /* Twitter.h */; };
-		C09AEFC417A53B1C00879A4C /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C09AEFC317A53B1C00879A4C /* Accounts.framework */; };
-		C09AEFC617A53B2800879A4C /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C09AEFC517A53B2800879A4C /* AdSupport.framework */; };
-		C09AEFD217A544BE00879A4C /* DSC_0138.JPG in Resources */ = {isa = PBXBuildFile; fileRef = C09AEFC817A544BE00879A4C /* DSC_0138.JPG */; };
-		C09AEFD317A544BE00879A4C /* DSC_0141.JPG in Resources */ = {isa = PBXBuildFile; fileRef = C09AEFC917A544BE00879A4C /* DSC_0141.JPG */; };
-		C09AEFD417A544BE00879A4C /* DSC_0142.JPG in Resources */ = {isa = PBXBuildFile; fileRef = C09AEFCA17A544BE00879A4C /* DSC_0142.JPG */; };
-		C09AEFD517A544BE00879A4C /* DSC_0143.JPG in Resources */ = {isa = PBXBuildFile; fileRef = C09AEFCB17A544BE00879A4C /* DSC_0143.JPG */; };
-		C09AEFD617A544BE00879A4C /* DSC_7630.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C09AEFCC17A544BE00879A4C /* DSC_7630.jpg */; };
-		C09AEFD717A544BE00879A4C /* DSC_7633.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C09AEFCD17A544BE00879A4C /* DSC_7633.jpg */; };
-		C09AEFD817A544BE00879A4C /* DSC_7638.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C09AEFCE17A544BE00879A4C /* DSC_7638.jpg */; };
-		C09AEFD917A544BE00879A4C /* DSC_7639.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C09AEFCF17A544BE00879A4C /* DSC_7639.jpg */; };
-		C09AEFDA17A544BE00879A4C /* DSC_7641.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C09AEFD017A544BE00879A4C /* DSC_7641.jpg */; };
-		C09AEFDB17A544BE00879A4C /* DSC_7643.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C09AEFD117A544BE00879A4C /* DSC_7643.jpg */; };
-		C09AEFDD17A54A6100879A4C /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C09AEFDC17A54A6100879A4C /* Twitter.framework */; };
+		C1112B7017A541020030D1A5 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1112B6F17A541020030D1A5 /* Twitter.framework */; };
+		C1112B7217A5413F0030D1A5 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1112B7117A5413F0030D1A5 /* Accounts.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		C1112B7617A54EC00030D1A5 /* TalkViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1112B7517A54EC00030D1A5 /* TalkViewController.xib */; };
+		FA7EAB9917A55AB400F677BC /* tech.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA7EAB9817A55AB400F677BC /* tech.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -154,19 +127,10 @@
 		C09AEFAC17A539E500879A4C /* twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twitter.png; sourceTree = "<group>"; };
 		C09AEFAE17A53A1800879A4C /* Twitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Twitter.h; sourceTree = "<group>"; };
 		C09AEFAF17A53A1800879A4C /* Twitter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Twitter.m; sourceTree = "<group>"; };
-		C09AEFC317A53B1C00879A4C /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
-		C09AEFC517A53B2800879A4C /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
-		C09AEFC817A544BE00879A4C /* DSC_0138.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DSC_0138.JPG; sourceTree = "<group>"; };
-		C09AEFC917A544BE00879A4C /* DSC_0141.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DSC_0141.JPG; sourceTree = "<group>"; };
-		C09AEFCA17A544BE00879A4C /* DSC_0142.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DSC_0142.JPG; sourceTree = "<group>"; };
-		C09AEFCB17A544BE00879A4C /* DSC_0143.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DSC_0143.JPG; sourceTree = "<group>"; };
-		C09AEFCC17A544BE00879A4C /* DSC_7630.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DSC_7630.jpg; sourceTree = "<group>"; };
-		C09AEFCD17A544BE00879A4C /* DSC_7633.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DSC_7633.jpg; sourceTree = "<group>"; };
-		C09AEFCE17A544BE00879A4C /* DSC_7638.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DSC_7638.jpg; sourceTree = "<group>"; };
-		C09AEFCF17A544BE00879A4C /* DSC_7639.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DSC_7639.jpg; sourceTree = "<group>"; };
-		C09AEFD017A544BE00879A4C /* DSC_7641.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DSC_7641.jpg; sourceTree = "<group>"; };
-		C09AEFD117A544BE00879A4C /* DSC_7643.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DSC_7643.jpg; sourceTree = "<group>"; };
-		C09AEFDC17A54A6100879A4C /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		C1112B6F17A541020030D1A5 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		C1112B7117A5413F0030D1A5 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		C1112B7517A54EC00030D1A5 /* TalkViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TalkViewController.xib; sourceTree = "<group>"; };
+		FA7EAB9817A55AB400F677BC /* tech.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tech.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,12 +138,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C09AEFDD17A54A6100879A4C /* Twitter.framework in Frameworks */,
-				C09AEFC617A53B2800879A4C /* AdSupport.framework in Frameworks */,
-				C09AEFC417A53B1C00879A4C /* Accounts.framework in Frameworks */,
+				C09AEF5E17A5183900879A4C /* StoreKit.framework in Frameworks */,
+				C1112B7217A5413F0030D1A5 /* Accounts.framework in Frameworks */,
+				C1112B7017A541020030D1A5 /* Twitter.framework in Frameworks */,
 				C09AEFAB17A537A400879A4C /* Social.framework in Frameworks */,
 				C09AEF6017A5184000879A4C /* SystemConfiguration.framework in Frameworks */,
-				C09AEF5E17A5183900879A4C /* StoreKit.framework in Frameworks */,
 				C09AEF5C17A5183200879A4C /* Security.framework in Frameworks */,
 				C09AEF5017A50AD600879A4C /* QuartzCore.framework in Frameworks */,
 				C09AEF5A17A517FB00879A4C /* MobileCoreServices.framework in Frameworks */,
@@ -217,9 +180,8 @@
 		C09AEF1F17A4E66800879A4C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C09AEFDC17A54A6100879A4C /* Twitter.framework */,
-				C09AEFC517A53B2800879A4C /* AdSupport.framework */,
-				C09AEFC317A53B1C00879A4C /* Accounts.framework */,
+				C1112B7117A5413F0030D1A5 /* Accounts.framework */,
+				C1112B6F17A541020030D1A5 /* Twitter.framework */,
 				C09AEFAA17A537A400879A4C /* Social.framework */,
 				C09AEF6117A518C200879A4C /* Parse.framework */,
 				C09AEF5F17A5184000879A4C /* SystemConfiguration.framework */,
@@ -241,7 +203,6 @@
 		C09AEF2617A4E66800879A4C /* Concierge */ = {
 			isa = PBXGroup;
 			children = (
-				C09AEFC717A544BE00879A4C /* hackmit_candids */,
 				C09AEF9217A529E900879A4C /* Views */,
 				C09AEF4C17A4EBB500879A4C /* ScheduleViewController.h */,
 				C09AEF4D17A4EBB500879A4C /* ScheduleViewController.m */,
@@ -297,30 +258,15 @@
 				C09AEFA817A5347C00879A4C /* coffee.jpg */,
 				C09AEF8517A51F1200879A4C /* food.jpg */,
 				C09AEF8317A51F0900879A4C /* Screen Shot 2013-07-28 at 2.41.52 AM.png */,
+				FA7EAB9817A55AB400F677BC /* tech.jpg */,
 				C09AEF9717A52E9800879A4C /* hackmit.jpg */,
 				C09AEF9517A52E9000879A4C /* clock.jpg */,
 				C09AEF3B17A4E66800879A4C /* ViewController.xib */,
 				C09AEF8017A51CD500879A4C /* GetServedViewController.xib */,
 				C09AEF8F17A5292500879A4C /* OpeningViewController.xib */,
+				C1112B7517A54EC00030D1A5 /* TalkViewController.xib */,
 			);
 			name = Views;
-			sourceTree = "<group>";
-		};
-		C09AEFC717A544BE00879A4C /* hackmit_candids */ = {
-			isa = PBXGroup;
-			children = (
-				C09AEFC817A544BE00879A4C /* DSC_0138.JPG */,
-				C09AEFC917A544BE00879A4C /* DSC_0141.JPG */,
-				C09AEFCA17A544BE00879A4C /* DSC_0142.JPG */,
-				C09AEFCB17A544BE00879A4C /* DSC_0143.JPG */,
-				C09AEFCC17A544BE00879A4C /* DSC_7630.jpg */,
-				C09AEFCD17A544BE00879A4C /* DSC_7633.jpg */,
-				C09AEFCE17A544BE00879A4C /* DSC_7638.jpg */,
-				C09AEFCF17A544BE00879A4C /* DSC_7639.jpg */,
-				C09AEFD017A544BE00879A4C /* DSC_7641.jpg */,
-				C09AEFD117A544BE00879A4C /* DSC_7643.jpg */,
-			);
-			path = hackmit_candids;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -389,16 +335,8 @@
 				C09AEFA717A532FB00879A4C /* GetTechViewController.xib in Resources */,
 				C09AEFA917A5347C00879A4C /* coffee.jpg in Resources */,
 				C09AEFAD17A539E600879A4C /* twitter.png in Resources */,
-				C09AEFD217A544BE00879A4C /* DSC_0138.JPG in Resources */,
-				C09AEFD317A544BE00879A4C /* DSC_0141.JPG in Resources */,
-				C09AEFD417A544BE00879A4C /* DSC_0142.JPG in Resources */,
-				C09AEFD517A544BE00879A4C /* DSC_0143.JPG in Resources */,
-				C09AEFD617A544BE00879A4C /* DSC_7630.jpg in Resources */,
-				C09AEFD717A544BE00879A4C /* DSC_7633.jpg in Resources */,
-				C09AEFD817A544BE00879A4C /* DSC_7638.jpg in Resources */,
-				C09AEFD917A544BE00879A4C /* DSC_7639.jpg in Resources */,
-				C09AEFDA17A544BE00879A4C /* DSC_7641.jpg in Resources */,
-				C09AEFDB17A544BE00879A4C /* DSC_7643.jpg in Resources */,
+				C1112B7617A54EC00030D1A5 /* TalkViewController.xib in Resources */,
+				FA7EAB9917A55AB400F677BC /* tech.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,24 +347,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C09AEFB117A53AB500879A4C /* twitter.png in Sources */,
-				C09AEFB217A53AB500879A4C /* coffee.jpg in Sources */,
-				C09AEFB317A53AB500879A4C /* food.jpg in Sources */,
-				C09AEFB417A53AB500879A4C /* Screen Shot 2013-07-28 at 2.41.52 AM.png in Sources */,
-				C09AEFB517A53AB500879A4C /* hackmit.jpg in Sources */,
-				C09AEFB617A53AB500879A4C /* clock.jpg in Sources */,
-				C09AEFB717A53AB500879A4C /* GetServedViewController.xib in Sources */,
-				C09AEFB817A53AB500879A4C /* OpeningViewController.xib in Sources */,
-				C09AEFB917A53AB500879A4C /* Message.h in Sources */,
-				C09AEFBA17A53AB500879A4C /* MessageUtil.h in Sources */,
-				C09AEFBB17A53AB500879A4C /* Person.h in Sources */,
-				C09AEFBC17A53AB500879A4C /* GetServedViewController.h in Sources */,
-				C09AEFBD17A53AB500879A4C /* OpeningViewController.h in Sources */,
-				C09AEFBE17A53AB500879A4C /* GetFoodViewController.h in Sources */,
-				C09AEFBF17A53AB500879A4C /* GetFoodViewController.xib in Sources */,
-				C09AEFC017A53AB500879A4C /* GetTechViewController.h in Sources */,
-				C09AEFC117A53AB500879A4C /* GetTechViewController.xib in Sources */,
-				C09AEFC217A53AB500879A4C /* Twitter.h in Sources */,
 				C09AEF6E17A5194400879A4C /* Concierge.app in Sources */,
 				C09AEF6317A518D600879A4C /* ScheduleViewController.h in Sources */,
 				C09AEF6417A518D600879A4C /* MentorViewController.h in Sources */,

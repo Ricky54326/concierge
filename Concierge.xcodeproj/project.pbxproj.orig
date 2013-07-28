@@ -61,6 +61,9 @@
 		C09AEFAB17A537A400879A4C /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C09AEFAA17A537A400879A4C /* Social.framework */; };
 		C09AEFAD17A539E600879A4C /* twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = C09AEFAC17A539E500879A4C /* twitter.png */; };
 		C09AEFB017A53A1800879A4C /* Twitter.m in Sources */ = {isa = PBXBuildFile; fileRef = C09AEFAF17A53A1800879A4C /* Twitter.m */; };
+		C1112B7017A541020030D1A5 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1112B6F17A541020030D1A5 /* Twitter.framework */; };
+		C1112B7217A5413F0030D1A5 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1112B7117A5413F0030D1A5 /* Accounts.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		C1112B7617A54EC00030D1A5 /* TalkViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1112B7517A54EC00030D1A5 /* TalkViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -123,6 +126,9 @@
 		C09AEFAC17A539E500879A4C /* twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twitter.png; sourceTree = "<group>"; };
 		C09AEFAE17A53A1800879A4C /* Twitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Twitter.h; sourceTree = "<group>"; };
 		C09AEFAF17A53A1800879A4C /* Twitter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Twitter.m; sourceTree = "<group>"; };
+		C1112B6F17A541020030D1A5 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		C1112B7117A5413F0030D1A5 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		C1112B7517A54EC00030D1A5 /* TalkViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TalkViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,9 +136,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C09AEF5E17A5183900879A4C /* StoreKit.framework in Frameworks */,
+				C1112B7217A5413F0030D1A5 /* Accounts.framework in Frameworks */,
+				C1112B7017A541020030D1A5 /* Twitter.framework in Frameworks */,
 				C09AEFAB17A537A400879A4C /* Social.framework in Frameworks */,
 				C09AEF6017A5184000879A4C /* SystemConfiguration.framework in Frameworks */,
-				C09AEF5E17A5183900879A4C /* StoreKit.framework in Frameworks */,
 				C09AEF5C17A5183200879A4C /* Security.framework in Frameworks */,
 				C09AEF5017A50AD600879A4C /* QuartzCore.framework in Frameworks */,
 				C09AEF5A17A517FB00879A4C /* MobileCoreServices.framework in Frameworks */,
@@ -153,7 +161,6 @@
 		C09AEF1417A4E66800879A4C = {
 			isa = PBXGroup;
 			children = (
-				C09AEFAA17A537A400879A4C /* Social.framework */,
 				C09AEF2617A4E66800879A4C /* Concierge */,
 				C09AEF1F17A4E66800879A4C /* Frameworks */,
 				C09AEF1E17A4E66800879A4C /* Products */,
@@ -171,6 +178,9 @@
 		C09AEF1F17A4E66800879A4C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C1112B7117A5413F0030D1A5 /* Accounts.framework */,
+				C1112B6F17A541020030D1A5 /* Twitter.framework */,
+				C09AEFAA17A537A400879A4C /* Social.framework */,
 				C09AEF6117A518C200879A4C /* Parse.framework */,
 				C09AEF5F17A5184000879A4C /* SystemConfiguration.framework */,
 				C09AEF5D17A5183900879A4C /* StoreKit.framework */,
@@ -251,6 +261,7 @@
 				C09AEF3B17A4E66800879A4C /* ViewController.xib */,
 				C09AEF8017A51CD500879A4C /* GetServedViewController.xib */,
 				C09AEF8F17A5292500879A4C /* OpeningViewController.xib */,
+				C1112B7517A54EC00030D1A5 /* TalkViewController.xib */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -321,6 +332,7 @@
 				C09AEFA717A532FB00879A4C /* GetTechViewController.xib in Resources */,
 				C09AEFA917A5347C00879A4C /* coffee.jpg in Resources */,
 				C09AEFAD17A539E600879A4C /* twitter.png in Resources */,
+				C1112B7617A54EC00030D1A5 /* TalkViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
