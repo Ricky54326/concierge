@@ -57,6 +57,10 @@
 		C09AEFA217A532CA00879A4C /* GetFoodViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C09AEFA017A532CA00879A4C /* GetFoodViewController.xib */; };
 		C09AEFA617A532FB00879A4C /* GetTechViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C09AEFA417A532FB00879A4C /* GetTechViewController.m */; };
 		C09AEFA717A532FB00879A4C /* GetTechViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C09AEFA517A532FB00879A4C /* GetTechViewController.xib */; };
+		C09AEFA917A5347C00879A4C /* coffee.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C09AEFA817A5347C00879A4C /* coffee.jpg */; };
+		C09AEFAB17A537A400879A4C /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C09AEFAA17A537A400879A4C /* Social.framework */; };
+		C09AEFAD17A539E600879A4C /* twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = C09AEFAC17A539E500879A4C /* twitter.png */; };
+		C09AEFB017A53A1800879A4C /* Twitter.m in Sources */ = {isa = PBXBuildFile; fileRef = C09AEFAF17A53A1800879A4C /* Twitter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -114,6 +118,11 @@
 		C09AEFA317A532FB00879A4C /* GetTechViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetTechViewController.h; sourceTree = "<group>"; };
 		C09AEFA417A532FB00879A4C /* GetTechViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetTechViewController.m; sourceTree = "<group>"; };
 		C09AEFA517A532FB00879A4C /* GetTechViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GetTechViewController.xib; sourceTree = "<group>"; };
+		C09AEFA817A5347C00879A4C /* coffee.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = coffee.jpg; sourceTree = "<group>"; };
+		C09AEFAA17A537A400879A4C /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		C09AEFAC17A539E500879A4C /* twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twitter.png; sourceTree = "<group>"; };
+		C09AEFAE17A53A1800879A4C /* Twitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Twitter.h; sourceTree = "<group>"; };
+		C09AEFAF17A53A1800879A4C /* Twitter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Twitter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +130,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C09AEFAB17A537A400879A4C /* Social.framework in Frameworks */,
 				C09AEF6017A5184000879A4C /* SystemConfiguration.framework in Frameworks */,
 				C09AEF5E17A5183900879A4C /* StoreKit.framework in Frameworks */,
 				C09AEF5C17A5183200879A4C /* Security.framework in Frameworks */,
@@ -143,6 +153,7 @@
 		C09AEF1417A4E66800879A4C = {
 			isa = PBXGroup;
 			children = (
+				C09AEFAA17A537A400879A4C /* Social.framework */,
 				C09AEF2617A4E66800879A4C /* Concierge */,
 				C09AEF1F17A4E66800879A4C /* Frameworks */,
 				C09AEF1E17A4E66800879A4C /* Products */,
@@ -200,6 +211,8 @@
 				C09AEFA317A532FB00879A4C /* GetTechViewController.h */,
 				C09AEFA417A532FB00879A4C /* GetTechViewController.m */,
 				C09AEFA517A532FB00879A4C /* GetTechViewController.xib */,
+				C09AEFAE17A53A1800879A4C /* Twitter.h */,
+				C09AEFAF17A53A1800879A4C /* Twitter.m */,
 			);
 			path = Concierge;
 			sourceTree = "<group>";
@@ -229,6 +242,8 @@
 		C09AEF9217A529E900879A4C /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				C09AEFAC17A539E500879A4C /* twitter.png */,
+				C09AEFA817A5347C00879A4C /* coffee.jpg */,
 				C09AEF8517A51F1200879A4C /* food.jpg */,
 				C09AEF8317A51F0900879A4C /* Screen Shot 2013-07-28 at 2.41.52 AM.png */,
 				C09AEF9717A52E9800879A4C /* hackmit.jpg */,
@@ -304,6 +319,8 @@
 				C09AEF9817A52E9800879A4C /* hackmit.jpg in Resources */,
 				C09AEFA217A532CA00879A4C /* GetFoodViewController.xib in Resources */,
 				C09AEFA717A532FB00879A4C /* GetTechViewController.xib in Resources */,
+				C09AEFA917A5347C00879A4C /* coffee.jpg in Resources */,
+				C09AEFAD17A539E600879A4C /* twitter.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,6 +355,7 @@
 				C09AEF9017A5292500879A4C /* OpeningViewController.m in Sources */,
 				C09AEFA117A532CA00879A4C /* GetFoodViewController.m in Sources */,
 				C09AEFA617A532FB00879A4C /* GetTechViewController.m in Sources */,
+				C09AEFB017A53A1800879A4C /* Twitter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
