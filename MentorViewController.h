@@ -9,6 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface MentorViewController : UITableViewController {
+    UITextField* phoneNumberTextField;
+    UITextField* messageField;
 }
 
 @property (nonatomic, strong) NSMutableArray *titles;

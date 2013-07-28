@@ -143,7 +143,7 @@
                                                    delegate:self
                                           cancelButtonTitle:@"Cancel"
                                           otherButtonTitles:@"Send Message",nil];
-    UITextField* phoneNumberTextField = [[UITextField alloc] initWithFrame:CGRectMake(20.0, 15.0, 245.0, 25.0)];
+    phoneNumberTextField = [[UITextField alloc] initWithFrame:CGRectMake(20.0, 15.0, 245.0, 25.0)];
     phoneNumberTextField.delegate=self;
     [phoneNumberTextField setBackgroundColor:[UIColor whiteColor]];
     [phoneNumberTextField setKeyboardType:UIKeyboardTypeDefault];
@@ -151,7 +151,7 @@
     phoneNumberTextField.secureTextEntry=NO;
     [alert addSubview:phoneNumberTextField];
     
-    UITextField* messageField = [[UITextField alloc] initWithFrame:CGRectMake(20.0, 45.0, 245.0, 25.0)];
+    messageField = [[UITextField alloc] initWithFrame:CGRectMake(20.0, 45.0, 245.0, 25.0)];
     messageField.delegate=self;
     [messageField setBackgroundColor:[UIColor whiteColor]];
     [messageField setKeyboardType:UIKeyboardTypeDefault];
@@ -163,16 +163,18 @@
 
 - (void)alertView:(UIAlertView *)alertView didDismissWithButtonIndex:(NSInteger)buttonIndex {
     if (buttonIndex == 1) {
-        //NSString* phoneNumber = [alertView textFieldAtIndex:0];
-        //NSString* message = [alertView textFieldAtIndex:1];
+        //NSString* phoneNumber = [alertView textFieldAtIndex:0].text;
+        //NSString* message = [alertView textFieldAtIndex:1].text;
+        //NSLog(phoneNumber);
+        //NSLog(message);
         NSLog(@"I should be running hello world");
         
-        [PFCloud callFunctionInBackground:@"hello"
+        [PFCloud callFunctionInBackground:@"textMentor"
                            withParameters:@{}
                                     block:^(NSString *result, NSError *error) {
                                         if (!error) {
                                             // result is @"Hello world!"
-                                            NSLog(@"done fucked up");
+                                            NSLog(@"fsdjkfjakglj");
                                         }
                                     }];
     }
