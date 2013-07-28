@@ -1,0 +1,52 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1038\cocoasubrtf360
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;\red0\green19\blue130;\red0\green22\blue130;}
+\margl1440\margr1440\vieww11520\viewh14060\viewkind0
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural\pardirnatural
+
+\f0\b\fs24 \cf0 Description\
+\
+
+\b0 This sample application demonstrates an app that can quickly set up conference calls.  You can invite participants either by dialing their phone numbers, using contacts in your Address Book, or typing in their Twilio Client name.  The app then makes use of the Twilio REST API to automatically dial those contacts and invite them in to the conference.
+\b \
+\
+
+\b0 If you dial a Twilio Client, such as another iOS app or a browser-based client, those clients must be logged in to the same Twilio Application as the Conference application.\
+
+\b \
+\
+
+\fs28 Prequisites\
+
+\b0\fs24 \
+1. Install Xcode with at least iOS SDK 4.2 or higher. Xcode may be obtained from the Mac App Store or by downloading it from \cf2 http://developer.apple.com\cf0 .\
+\
+2. Get set up as a registered iOS developer with valid Provisioning Profile(s) for any devices you will be testing with. For more information on provisioning devices, please refer to Apple\'92s documentation \'93\cf2 Managing Devices and Digital Identities\cf0 \'94.\
+\
+3. Get a Twilio Account SID and Auth Token to initiate calls from your iOS device. You will find these under your \cf2 Account Dashboard\cf0 . If you don\'92t have an account, you can always sign up for a free \cf2 trial account\cf3 .\
+\
+\
+\
+
+\b\fs28 \cf0 Setup and Usage\
+
+\fs24 \
+
+\b0 Place the PHP files along with the PHP Helper Libs on your public-facing server.\
+\
+Then make an application on Twilio.com and configure the Voice URL to point to the 
+\b join-conference.php
+\b0  file on your server.  Modify the AccountSid and AuthToken in 
+\b auth.php
+\b0  and 
+\b make-call.php
+\b0  to be the values from your Twilio account.   You'll also need to specify your Twilio Application SID in 
+\b auth.php
+\b0 .\
+\
+Modify the URLs in ConferencePhone.m to point to the location of 
+\b auth.php
+\b0  and 
+\b make-call.php
+\b0 , and then build and run the iOS application.\
+}

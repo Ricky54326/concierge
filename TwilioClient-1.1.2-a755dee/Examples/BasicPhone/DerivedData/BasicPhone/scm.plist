@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>FoundWorkingCopyPaths</key>
+	<array>
+		<string>/Users/gilligan/Documents/projects/twilioclient-ios-sdk</string>
+	</array>
+	<key>LastWorkingCopyScanDate</key>
+	<date>2013-02-14T19:45:16Z</date>
+	<key>MissingFilePaths</key>
+	<array>
+		<string>/Users/gilligan/Documents/projects/twilioclient-ios-sdk/Libraries/libcrypto.a</string>
+		<string>/Users/gilligan/Documents/projects/twilioclient-ios-sdk/Libraries/libTwilioClient.a</string>
+		<string>/Users/gilligan/Documents/projects/twilioclient-ios-sdk/Resources/outgoing.wav</string>
+		<string>/Users/gilligan/Documents/projects/twilioclient-ios-sdk/Resources/incoming.wav</string>
+		<string>/Users/gilligan/Documents/projects/twilioclient-ios-sdk/Resources/disconnect.wav</string>
+		<string>/Users/gilligan/Documents/projects/twilioclient-ios-sdk/Libraries/libssl.a</string>
+	</array>
+	<key>Version</key>
+	<integer>4</integer>
+</dict>
+</plist>

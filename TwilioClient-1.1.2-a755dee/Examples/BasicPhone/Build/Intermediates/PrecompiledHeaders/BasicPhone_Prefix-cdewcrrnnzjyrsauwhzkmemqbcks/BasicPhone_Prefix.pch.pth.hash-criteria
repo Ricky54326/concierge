@@ -1,0 +1,23 @@
+Contents of /Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/BasicPhone_Prefix.pch
+
+arm-apple-darwin12.2.1
+-x
+objective-c
+-arch
+armv7
+-fmessage-length=0
+-std=c99
+-fpascal-strings
+-O0
+-isysroot
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk
+-fstrict-aliasing
+-g
+-fvisibility=hidden
+-miphoneos-version-min=4.2
+-iquote
+-iquote
+-I/Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/Build/Products/Debug-iphoneos/include
+-I/Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/../../Headers
+-F/Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/Build/Products/Debug-iphoneos
+SDK_PRODUCT_BUILD_VERSION=10B141

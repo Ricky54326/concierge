@@ -85,6 +85,9 @@
     // Configure the cell...
     if (cell==nil) {
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
+        [cell setSelectionStyle:UITableViewCellSelectionStyleNone];
+
+        
     }
     
     cell.textLabel.text = [self.titles objectAtIndex:indexPath.row];
@@ -135,13 +138,34 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    // Navigation logic may go here. Create and push another view controller.
-    /*
-     <#DetailViewController#> *detailViewController = [[<#DetailViewController#> alloc] initWithNibName:@"<#Nib name#>" bundle:nil];
-     // ...
-     // Pass the selected object to the new view controller.
-     [self.navigationController pushViewController:detailViewController animated:YES];
-     */
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:[NSString stringWithFormat:@"Contact %@?",[tableView cellForRowAtIndexPath:indexPath].textLabel.text]
+                                                    message: @"\n\n"
+                                                   delegate:self
+                                          cancelButtonTitle:@"Cancel"
+                                          otherButtonTitles:@"Send Message",nil];
+    UITextField* phoneNumberTextField = [[UITextField alloc] initWithFrame:CGRectMake(20.0, 15.0, 245.0, 25.0)];
+    phoneNumberTextField.delegate=self;
+    [phoneNumberTextField setBackgroundColor:[UIColor whiteColor]];
+    [phoneNumberTextField setKeyboardType:UIKeyboardTypeDefault];
+    phoneNumberTextField.placeholder=@"Phone Number";
+    phoneNumberTextField.secureTextEntry=NO;
+    [alert addSubview:phoneNumberTextField];
+    
+    UITextField* messageField = [[UITextField alloc] initWithFrame:CGRectMake(20.0, 45.0, 245.0, 25.0)];
+    messageField.delegate=self;
+    [messageField setBackgroundColor:[UIColor whiteColor]];
+    [messageField setKeyboardType:UIKeyboardTypeDefault];
+    messageField.placeholder=@"Message";
+    [alert addSubview:messageField];
+    
+    [alert show];
 }
+
+- (void)alertView:(UIAlertView *)alertView didDismissWithButtonIndex:(NSInteger)buttonIndex {
+    if (buttonIndex == 1) {
+        
+    }
+}
+
 
 @end

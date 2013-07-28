@@ -1,0 +1,491 @@
+TBasicPhone
+v5
+r1
+cCheck dependencies
+cCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/ResourceRules.plist Build/Products/Debug-iphoneos/BasicPhone.app/ResourceRules.plist
+cProcessInfoPlistFile /Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/Build/Products/Debug-iphoneos/BasicPhone.app/Info.plist BasicPhone-Info.plist
+cCompileXIB /Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/BasicPhoneViewController.xib
+cCompileXIB /Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/MainWindow.xib
+cCopyPNGFile /Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/Build/Products/Debug-iphoneos/BasicPhone.app/dialing@2x.png Images/dialing@2x.png
+cCopyPNGFile /Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/Build/Products/Debug-iphoneos/BasicPhone.app/idle@2x.png Images/idle@2x.png
+cCopyPNGFile /Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/Build/Products/Debug-iphoneos/BasicPhone.app/inprogress@2x.png Images/inprogress@2x.png
+cCopyPNGFile /Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/Build/Products/Debug-iphoneos/BasicPhone.app/icon.png Images/icon.png
+cCopyPNGFile /Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/Build/Products/Debug-iphoneos/BasicPhone.app/Default@2x.png Images/Default@2x.png
+cCpResource ../../Resources/disconnect.wav Build/Products/Debug-iphoneos/BasicPhone.app/disconnect.wav
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk
+c0000000050ED385D0000000000000110
+t1357723741
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist
+c0000000050F4C99E00000000000001A7
+t1358219678
+s423
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/ResourceRules.plist
+c0000000050F4C99E00000000000001E5
+t1358219678
+s485
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c0000000050F4C9A6000000000036CDF0
+t1358219686
+s3591664
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c0000000050F4C9A500000000006B1F40
+t1358219685
+s7020352
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+c0000000050F4C9A700000000002C8530
+t1358219687
+s2917680
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c0000000050F4C9A90000000000322700
+t1358219689
+s3286784
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c0000000050F4C9AB000000000062AD10
+t1358219691
+s6466832
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c0000000050F4C9AB00000000000015F7
+t1358219691
+s5623
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c0000000050F4C9B200000000000CAFB0
+t1358219698
+s831408
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c0000000050F4C9B30000000000000E8D
+t1358219699
+s3725
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c0000000050F4C9B400000000011BCDF0
+t1358219700
+s18599408
+
+N/Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/../../Resources/disconnect.wav
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/../../Resources/incoming.wav
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/../../Resources/outgoing.wav
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/../../libTwilioClient.a
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/BasicPhoneViewController.xib
+c0000000050EC59500000000000006DD7
+t1357666640
+s28119
+
+N/Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/BasicPhone_Prefix.pch
+c0000000050EC595000000000000000BD
+t1357666640
+s189
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/Build/Intermediates/BasicPhone.build/Debug-iphoneos/BasicPhone.build/BasicPhone.xcent
+t2
+s0
+
+N/Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/Build/Intermediates/BasicPhone.build/Debug-iphoneos/BasicPhone.build/Objects-normal/armv7/BasicPhone
+t2
+s0
+
+N/Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/Build/Intermediates/BasicPhone.build/Debug-iphoneos/BasicPhone.build/Objects-normal/armv7/BasicPhone.LinkFileList
+c0000000051116BE5000000000000039F
+t1360096229
+s927
+
+N/Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/Build/Intermediates/BasicPhone.build/Debug-iphoneos/BasicPhone.build/Objects-normal/armv7/BasicPhone.o
+t2
+s0
+
+N/Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/Build/Intermediates/BasicPhone.build/Debug-iphoneos/BasicPhone.build/Objects-normal/armv7/BasicPhoneAppDelegate.o
+t2
+s0
+
+N/Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/Build/Intermediates/BasicPhone.build/Debug-iphoneos/BasicPhone.build/Objects-normal/armv7/BasicPhoneNotifications.o
+t2
+s0
+
+N/Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/Build/Intermediates/BasicPhone.build/Debug-iphoneos/BasicPhone.build/Objects-normal/armv7/BasicPhoneViewController.o
+t2
+s0
+
+N/Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/Build/Intermediates/BasicPhone.build/Debug-iphoneos/BasicPhone.build/Objects-normal/armv7/main.o
+t2
+s0
+
+N/Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/Build/Intermediates/BasicPhone.build/Debug-iphoneos/BasicPhone.build/Objects-normal/armv7s/BasicPhone
+t2
+s0
+
+N/Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/Build/Intermediates/BasicPhone.build/Debug-iphoneos/BasicPhone.build/Objects-normal/armv7s/BasicPhone.LinkFileList
+c0000000051116BE500000000000003A4
+t1360096229
+s932
+
+N/Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/Build/Intermediates/BasicPhone.build/Debug-iphoneos/BasicPhone.build/Objects-normal/armv7s/BasicPhone.o
+t2
+s0
+
+N/Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/Build/Intermediates/BasicPhone.build/Debug-iphoneos/BasicPhone.build/Objects-normal/armv7s/BasicPhoneAppDelegate.o
+t2
+s0
+
+N/Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/Build/Intermediates/BasicPhone.build/Debug-iphoneos/BasicPhone.build/Objects-normal/armv7s/BasicPhoneNotifications.o
+t2
+s0
+
+N/Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/Build/Intermediates/BasicPhone.build/Debug-iphoneos/BasicPhone.build/Objects-normal/armv7s/BasicPhoneViewController.o
+t2
+s0
+
+N/Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/Build/Intermediates/BasicPhone.build/Debug-iphoneos/BasicPhone.build/Objects-normal/armv7s/main.o
+t2
+s0
+
+N/Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/Build/Intermediates/PrecompiledHeaders/BasicPhone_Prefix-cdewcrrnnzjyrsauwhzkmemqbcks/BasicPhone_Prefix.pch.pth
+t2
+s0
+
+N/Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/Build/Intermediates/PrecompiledHeaders/BasicPhone_Prefix-dkukzfyjfmcqjlamnswcdzyneonu/BasicPhone_Prefix.pch.pth
+t2
+s0
+
+N/Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/Build/Products/Debug-iphoneos/BasicPhone.app
+t2
+s0
+
+N/Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/Build/Products/Debug-iphoneos/BasicPhone.app.dSYM
+t2
+s0
+
+N/Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/Build/Products/Debug-iphoneos/BasicPhone.app/BasicPhone
+t2
+s0
+
+N/Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/Build/Products/Debug-iphoneos/BasicPhone.app/BasicPhoneViewController.nib
+t2
+s0
+
+N/Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/Build/Products/Debug-iphoneos/BasicPhone.app/Default@2x.png
+t2
+s0
+
+N/Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/Build/Products/Debug-iphoneos/BasicPhone.app/Info.plist
+t2
+s0
+
+N/Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/Build/Products/Debug-iphoneos/BasicPhone.app/MainWindow.nib
+t2
+s0
+
+N/Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/Build/Products/Debug-iphoneos/BasicPhone.app/PkgInfo
+t2
+s0
+
+N/Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/Build/Products/Debug-iphoneos/BasicPhone.app/ResourceRules.plist
+t2
+s0
+
+N/Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/Build/Products/Debug-iphoneos/BasicPhone.app/dialing@2x.png
+t2
+s0
+
+N/Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/Build/Products/Debug-iphoneos/BasicPhone.app/disconnect.wav
+t2
+s0
+
+N/Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/Build/Products/Debug-iphoneos/BasicPhone.app/embedded.mobileprovision
+t2
+s0
+
+N/Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/Build/Products/Debug-iphoneos/BasicPhone.app/icon.png
+t2
+s0
+
+N/Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/Build/Products/Debug-iphoneos/BasicPhone.app/idle@2x.png
+t2
+s0
+
+N/Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/Build/Products/Debug-iphoneos/BasicPhone.app/incoming.wav
+t2
+s0
+
+N/Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/Build/Products/Debug-iphoneos/BasicPhone.app/inprogress@2x.png
+t2
+s0
+
+N/Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/Build/Products/Debug-iphoneos/BasicPhone.app/outgoing.wav
+t2
+s0
+
+N/Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/Classes/BasicPhone.m
+c0000000050EC595000000000000023B6
+t1357666640
+s9142
+
+N/Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/Classes/BasicPhoneAppDelegate.m
+c0000000050EC5950000000000000082D
+t1357666640
+s2093
+
+N/Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/Classes/BasicPhoneNotifications.m
+c0000000050EC59500000000000000519
+t1357666640
+s1305
+
+N/Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/Classes/BasicPhoneViewController.m
+c0000000050EC59500000000000003338
+t1357666640
+s13112
+
+N/Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/Images/Default@2x.png
+c0000000050EC5951000000000005EECE
+t1357666641
+s388814
+
+N/Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/Images/dialing@2x.png
+c0000000050EC5951000000000000916D
+t1357666641
+s37229
+
+N/Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/Images/icon.png
+c0000000050EC59510000000000001AA1
+t1357666641
+s6817
+
+N/Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/Images/idle@2x.png
+c0000000050EC59510000000000007CB8
+t1357666641
+s31928
+
+N/Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/Images/inprogress@2x.png
+c0000000050EC5951000000000000ED69
+t1357666641
+s60777
+
+N/Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/MainWindow.xib
+c0000000050EC59510000000000005CD1
+t1357666641
+s23761
+
+N/Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/main.m
+c0000000050EC5951000000000000011D
+t1357666641
+s285
+
+N/Users/gilligan/Library/MobileDevice/Provisioning Profiles/1B98CA3C-C6F5-4ADC-A8B6-C727E91F07A2.mobileprovision
+c0000000050F469120000000000002E5C
+t1358194962
+s11868
+
+NBasicPhone-Info.plist
+c0000000050EC595000000000000003DB
+t1357666640
+s987
+
+CBuild AST from /Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/Classes/BasicPhone.m
+r0
+
+CBuild AST from /Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/Classes/BasicPhoneAppDelegate.m
+r0
+
+CBuild AST from /Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/Classes/BasicPhoneNotifications.m
+r0
+
+CBuild AST from /Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/Classes/BasicPhoneViewController.m
+r0
+
+CBuild AST from /Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies6005d064a3c1b641^49801265a3c1b641^---0#1#0#--18"Check dependencies36"AF42D661-6550-4FCB-B974-650945595DCE-
+
+CCodeSign /Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/Build/Products/Debug-iphoneos/BasicPhone.app
+r0
+
+CCompileC Build/Intermediates/BasicPhone.build/Debug-iphoneos/BasicPhone.build/Objects-normal/armv7/BasicPhone.o /Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/Classes/BasicPhone.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Build/Intermediates/BasicPhone.build/Debug-iphoneos/BasicPhone.build/Objects-normal/armv7/BasicPhoneAppDelegate.o /Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/Classes/BasicPhoneAppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Build/Intermediates/BasicPhone.build/Debug-iphoneos/BasicPhone.build/Objects-normal/armv7/BasicPhoneNotifications.o /Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/Classes/BasicPhoneNotifications.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Build/Intermediates/BasicPhone.build/Debug-iphoneos/BasicPhone.build/Objects-normal/armv7/BasicPhoneViewController.o /Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/Classes/BasicPhoneViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Build/Intermediates/BasicPhone.build/Debug-iphoneos/BasicPhone.build/Objects-normal/armv7/main.o /Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Build/Intermediates/BasicPhone.build/Debug-iphoneos/BasicPhone.build/Objects-normal/armv7s/BasicPhone.o /Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/Classes/BasicPhone.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Build/Intermediates/BasicPhone.build/Debug-iphoneos/BasicPhone.build/Objects-normal/armv7s/BasicPhoneAppDelegate.o /Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/Classes/BasicPhoneAppDelegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Build/Intermediates/BasicPhone.build/Debug-iphoneos/BasicPhone.build/Objects-normal/armv7s/BasicPhoneNotifications.o /Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/Classes/BasicPhoneNotifications.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Build/Intermediates/BasicPhone.build/Debug-iphoneos/BasicPhone.build/Objects-normal/armv7s/BasicPhoneViewController.o /Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/Classes/BasicPhoneViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Build/Intermediates/BasicPhone.build/Debug-iphoneos/BasicPhone.build/Objects-normal/armv7s/main.o /Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/main.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileXIB /Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/BasicPhoneViewController.xib
+s381789029.103086
+e381789031.011721
+r1
+xCompileXIB
+x/Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/BasicPhoneViewController.xib
+o2013-02-05 12:30:30.466 Interface Builder Cocoa Touch Tool[57272:f07] CFPreferences: user home directory at file://localhost/Users/gilligan/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection114"Compiling /Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/BasicPhoneViewController.xib9cdd1a65a3c1b641^eb010367a3c1b641^-241"2013-02-05 12:30:30.466 Interface Builder Cocoa Touch Tool[57272:f07] CFPreferences: user home directory at file://localhost/Users/gilligan/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.-0#0#0#-19%DVTDocumentLocation2@120"file://localhost/Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/BasicPhoneViewController.xib0000000000000000^1029"CompileXIB BasicPhoneViewController.xib    cd /Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/Build/Products/Debug-iphoneos/BasicPhone.app/BasicPhoneViewController.nib /Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/BasicPhoneViewController.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk36"88D29B49-7C3E-41D8-9D83-B3DDCB9B3C9D-
+
+CCompileXIB /Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/MainWindow.xib
+s381789029.103592
+e381789030.610850
+r1
+xCompileXIB
+x/Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/MainWindow.xib
+o2013-02-05 12:30:30.471 Interface Builder Cocoa Touch Tool[57271:f07] CFPreferences: user home directory at file://localhost/Users/gilligan/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Compiling /Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/MainWindow.xibf8a51a65a3c1b641^d3f79e66a3c1b641^-241"2013-02-05 12:30:30.471 Interface Builder Cocoa Touch Tool[57271:f07] CFPreferences: user home directory at file://localhost/Users/gilligan/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.-0#0#0#-19%DVTDocumentLocation2@106"file://localhost/Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/MainWindow.xib0000000000000000^987"CompileXIB MainWindow.xib    cd /Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/Build/Products/Debug-iphoneos/BasicPhone.app/MainWindow.nib /Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/MainWindow.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk36"AD27AE95-68CC-48BE-878D-2E9ADBDF233D-
+
+CCopyPNGFile /Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/Build/Products/Debug-iphoneos/BasicPhone.app/Default@2x.png Images/Default@2x.png
+s381789029.433295
+e381789030.402281
+r1
+xCopyPNGFile
+x/Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/Build/Products/Debug-iphoneos/BasicPhone.app/Default@2x.png
+xImages/Default@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"CopyPNGFile Build/Products/Debug-iphoneos/BasicPhone.app/Default@2x.png Images/Default@2x.pnge10b6f65a3c1b641^48fc6666a3c1b641^---0#0#0#-19%DVTDocumentLocation2@113"file://localhost/Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/Images/Default@2x.png0000000000000000^799"CopyPNGFile "Build/Products/Debug-iphoneos/BasicPhone.app/Default@2x.png" "Images/Default@2x.png"    cd /Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/Images/Default@2x.png" "/Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/Build/Products/Debug-iphoneos/BasicPhone.app/Default@2x.png"36"EEC0E957-CC39-4061-9EA4-A5C126AC80D5-
+
+CCopyPNGFile /Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/Build/Products/Debug-iphoneos/BasicPhone.app/dialing@2x.png Images/dialing@2x.png
+s381789029.103606
+e381789029.405395
+r1
+xCopyPNGFile
+x/Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/Build/Products/Debug-iphoneos/BasicPhone.app/dialing@2x.png
+xImages/dialing@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"CopyPNGFile Build/Products/Debug-iphoneos/BasicPhone.app/dialing@2x.png Images/dialing@2x.png7fa61a65a3c1b641^e7c76765a3c1b641^---0#0#0#-19%DVTDocumentLocation2@113"file://localhost/Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/Images/dialing@2x.png0000000000000000^799"CopyPNGFile "Build/Products/Debug-iphoneos/BasicPhone.app/dialing@2x.png" "Images/dialing@2x.png"    cd /Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/Images/dialing@2x.png" "/Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/Build/Products/Debug-iphoneos/BasicPhone.app/dialing@2x.png"36"226491A9-1CDB-48CD-A670-9290770CDDBD-
+
+CCopyPNGFile /Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/Build/Products/Debug-iphoneos/BasicPhone.app/icon.png Images/icon.png
+s381789029.406743
+e381789029.479789
+r1
+xCopyPNGFile
+x/Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/Build/Products/Debug-iphoneos/BasicPhone.app/icon.png
+xImages/icon.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection81"CopyPNGFile Build/Products/Debug-iphoneos/BasicPhone.app/icon.png Images/icon.png643e6865a3c1b641^fcde7a65a3c1b641^---0#0#0#-19%DVTDocumentLocation2@107"file://localhost/Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/Images/icon.png0000000000000000^767"CopyPNGFile Build/Products/Debug-iphoneos/BasicPhone.app/icon.png Images/icon.png    cd /Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" /Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/Images/icon.png /Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/Build/Products/Debug-iphoneos/BasicPhone.app/icon.png36"84C7DF97-A683-46AF-A835-4F276DF4CED8-
+
+CCopyPNGFile /Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/Build/Products/Debug-iphoneos/BasicPhone.app/idle@2x.png Images/idle@2x.png
+s381789029.104292
+e381789029.301551
+r1
+xCopyPNGFile
+x/Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/Build/Products/Debug-iphoneos/BasicPhone.app/idle@2x.png
+xImages/idle@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"CopyPNGFile Build/Products/Debug-iphoneos/BasicPhone.app/idle@2x.png Images/idle@2x.pngfed21a65a3c1b641^f25e4d65a3c1b641^---0#0#0#-19%DVTDocumentLocation2@110"file://localhost/Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/Images/idle@2x.png0000000000000000^787"CopyPNGFile "Build/Products/Debug-iphoneos/BasicPhone.app/idle@2x.png" "Images/idle@2x.png"    cd /Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/Images/idle@2x.png" "/Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/Build/Products/Debug-iphoneos/BasicPhone.app/idle@2x.png"36"D52B6310-7A4F-453B-A2DE-DBFBE7270ACC-
+
+CCopyPNGFile /Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/Build/Products/Debug-iphoneos/BasicPhone.app/inprogress@2x.png Images/inprogress@2x.png
+s381789029.303555
+e381789029.431728
+r1
+xCopyPNGFile
+x/Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/Build/Products/Debug-iphoneos/BasicPhone.app/inprogress@2x.png
+xImages/inprogress@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"CopyPNGFile Build/Products/Debug-iphoneos/BasicPhone.app/inprogress@2x.png Images/inprogress@2x.png6fd94d65a3c1b641^66856e65a3c1b641^---0#0#0#-19%DVTDocumentLocation2@116"file://localhost/Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/Images/inprogress@2x.png0000000000000000^811"CopyPNGFile "Build/Products/Debug-iphoneos/BasicPhone.app/inprogress@2x.png" "Images/inprogress@2x.png"    cd /Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" "/Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/Images/inprogress@2x.png" "/Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/Build/Products/Debug-iphoneos/BasicPhone.app/inprogress@2x.png"36"5ED336B9-70BF-4D58-AC39-840552ED656A-
+
+CCpResource ../../Resources/disconnect.wav Build/Products/Debug-iphoneos/BasicPhone.app/disconnect.wav
+s381789029.481166
+e381789029.484400
+r0
+xCpResource
+x../../Resources/disconnect.wav
+xBuild/Products/Debug-iphoneos/BasicPhone.app/disconnect.wav
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Copy Build/Products/Debug-iphoneos/BasicPhone.app/disconnect.wav5e4c7b65a3c1b641^0d187c65a3c1b641^-140"error: /Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/../../Resources/disconnect.wav: No such file or directory1(21%IDEActivityLogMessage2@140"error: /Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/../../Resources/disconnect.wav: No such file or directory-381789029#18446744073709551615#0#-2#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#11"PBXCp Error--0#0#0#-19%DVTDocumentLocation4@151"file://localhost/Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/Build/Products/Debug-iphoneos/BasicPhone.app/disconnect.wav000000000080d041^791"CpResource ../../Resources/disconnect.wav Build/Products/Debug-iphoneos/BasicPhone.app/disconnect.wav    cd /Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/../../Resources/disconnect.wav /Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/Build/Products/Debug-iphoneos/BasicPhone.app36"C853BCFF-AEFD-4DD4-9866-8F55A42063EB-
+
+CCpResource ../../Resources/incoming.wav Build/Products/Debug-iphoneos/BasicPhone.app/incoming.wav
+r0
+
+CCpResource ../../Resources/outgoing.wav Build/Products/Debug-iphoneos/BasicPhone.app/outgoing.wav
+r0
+
+CCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/ResourceRules.plist Build/Products/Debug-iphoneos/BasicPhone.app/ResourceRules.plist
+s381789029.088055
+e381789029.094070
+r1
+xCpResource
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/ResourceRules.plist
+xBuild/Products/Debug-iphoneos/BasicPhone.app/ResourceRules.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Copy Build/Products/Debug-iphoneos/BasicPhone.app/ResourceRules.plistbff41665a3c1b641^98171865a3c1b641^---0#0#0#-19%DVTDocumentLocation2@156"file://localhost/Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/Build/Products/Debug-iphoneos/BasicPhone.app/ResourceRules.plist000000000080d041^902"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/ResourceRules.plist Build/Products/Debug-iphoneos/BasicPhone.app/ResourceRules.plist    cd /Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/ResourceRules.plist /Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/Build/Products/Debug-iphoneos/BasicPhone.app36"6DBFC936-25CB-451D-8354-6664BC0C38B9-
+
+CCreateUniversalBinary /Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/Build/Products/Debug-iphoneos/BasicPhone.app/BasicPhone normal "armv7 armv7s"
+r0
+
+CGenerateDSYMFile /Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/Build/Products/Debug-iphoneos/BasicPhone.app.dSYM /Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/Build/Products/Debug-iphoneos/BasicPhone.app/BasicPhone
+r0
+
+CLd /Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/Build/Intermediates/BasicPhone.build/Debug-iphoneos/BasicPhone.build/Objects-normal/armv7/BasicPhone normal armv7
+r0
+
+CLd /Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/Build/Intermediates/BasicPhone.build/Debug-iphoneos/BasicPhone.build/Objects-normal/armv7s/BasicPhone normal armv7s
+r0
+
+CProcessInfoPlistFile /Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/Build/Products/Debug-iphoneos/BasicPhone.app/Info.plist BasicPhone-Info.plist
+s381789029.088387
+e381789029.095155
+r1
+xProcessInfoPlistFile
+x/Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/Build/Products/Debug-iphoneos/BasicPhone.app/Info.plist
+xBasicPhone-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection29"Process BasicPhone-Info.plist33de1665a3c1b641^9a5c1865a3c1b641^---0#0#0#-19%DVTDocumentLocation2@113"file://localhost/Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/BasicPhone-Info.plist0000000000000000^990"ProcessInfoPlistFile Build/Products/Debug-iphoneos/BasicPhone.app/Info.plist BasicPhone-Info.plist    cd /Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin"    builtin-infoPlistUtility BasicPhone-Info.plist -genpkginfo /Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/Build/Products/Debug-iphoneos/BasicPhone.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/Build/Products/Debug-iphoneos/BasicPhone.app/ResourceRules.plist -o /Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/Build/Products/Debug-iphoneos/BasicPhone.app/Info.plist36"6AECC24C-717F-46DB-AA1A-ADC11E4AE16E-
+
+CProcessPCH /Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/Build/Intermediates/PrecompiledHeaders/BasicPhone_Prefix-cdewcrrnnzjyrsauwhzkmemqbcks/BasicPhone_Prefix.pch.pth BasicPhone_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CProcessPCH /Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/Build/Intermediates/PrecompiledHeaders/BasicPhone_Prefix-dkukzfyjfmcqjlamnswcdzyneonu/BasicPhone_Prefix.pch.pth BasicPhone_Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CProcessPCH /Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/DerivedData/BasicPhone/Index/PrecompiledHeaders/BasicPhone_Prefix-apepvgrejffazrdogaaiciryandb_ast/BasicPhone_Prefix.pch.pth BasicPhone_Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/DerivedData/BasicPhone/Index/PrecompiledHeaders/BasicPhone_Prefix-drjctjppvpvyduczplevxsdygbel_ast/BasicPhone_Prefix.pch.pth BasicPhone_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessProductPackaging "/Users/gilligan/Library/MobileDevice/Provisioning Profiles/1B98CA3C-C6F5-4ADC-A8B6-C727E91F07A2.mobileprovision" /Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/Build/Products/Debug-iphoneos/BasicPhone.app/embedded.mobileprovision
+r0
+
+CProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist /Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/Build/Intermediates/BasicPhone.build/Debug-iphoneos/BasicPhone.build/BasicPhone.xcent
+r0
+
+CTouch /Users/gilligan/Documents/projects/twilioclient-ios-sdk/examples/BasicPhone/Build/Products/Debug-iphoneos/BasicPhone.app
+r0
+

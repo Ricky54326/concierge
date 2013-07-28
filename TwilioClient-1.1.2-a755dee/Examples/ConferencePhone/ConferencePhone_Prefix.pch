@@ -1,0 +1,8 @@
+//
+// Prefix header for all source files of the 'ConferencePhone' target in the 'ConferencePhone' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+#endif
