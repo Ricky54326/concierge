@@ -10,4 +10,6 @@
 
 @interface OpeningViewController : UIViewController
 
+-(IBAction)loginWithTwitter:(id)sender;
+
 @end
