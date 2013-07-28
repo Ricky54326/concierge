@@ -64,6 +64,7 @@
 		C1112B7017A541020030D1A5 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1112B6F17A541020030D1A5 /* Twitter.framework */; };
 		C1112B7217A5413F0030D1A5 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1112B7117A5413F0030D1A5 /* Accounts.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		C1112B7617A54EC00030D1A5 /* TalkViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1112B7517A54EC00030D1A5 /* TalkViewController.xib */; };
+		FA7EAB9917A55AB400F677BC /* tech.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA7EAB9817A55AB400F677BC /* tech.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -129,6 +130,7 @@
 		C1112B6F17A541020030D1A5 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
 		C1112B7117A5413F0030D1A5 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 		C1112B7517A54EC00030D1A5 /* TalkViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TalkViewController.xib; sourceTree = "<group>"; };
+		FA7EAB9817A55AB400F677BC /* tech.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tech.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -256,6 +258,7 @@
 				C09AEFA817A5347C00879A4C /* coffee.jpg */,
 				C09AEF8517A51F1200879A4C /* food.jpg */,
 				C09AEF8317A51F0900879A4C /* Screen Shot 2013-07-28 at 2.41.52 AM.png */,
+				FA7EAB9817A55AB400F677BC /* tech.jpg */,
 				C09AEF9717A52E9800879A4C /* hackmit.jpg */,
 				C09AEF9517A52E9000879A4C /* clock.jpg */,
 				C09AEF3B17A4E66800879A4C /* ViewController.xib */,
@@ -333,6 +336,7 @@
 				C09AEFA917A5347C00879A4C /* coffee.jpg in Resources */,
 				C09AEFAD17A539E600879A4C /* twitter.png in Resources */,
 				C1112B7617A54EC00030D1A5 /* TalkViewController.xib in Resources */,
+				FA7EAB9917A55AB400F677BC /* tech.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
