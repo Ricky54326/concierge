@@ -10,6 +10,10 @@
 
 @interface ViewController : UIViewController
 
+-(IBAction)talkButtonPressed:(id)sender;
 -(IBAction)comeHitherButtonPressed:(id)sender;
+-(IBAction)mentorButtonPressed:(id)sender;
+-(IBAction)scheduleButtonPressed:(id)sender;
+
 
 @end
