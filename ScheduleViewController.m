@@ -31,6 +31,8 @@
     //self.titles = @[@"blah1",@"blah2"];
     //self.titles = [[NSMutableArray alloc] initWithObjects:@"blah1",@"blah2", nil];
     self.titles = [[NSMutableArray alloc] init];
+    self.startTimes = [[NSMutableArray alloc] init];
+    self.endTimes = [[NSMutableArray alloc] init];
     
     PFQuery *query = [PFQuery queryWithClassName:@"event"];
     [query findObjectsInBackgroundWithBlock:^(NSArray *objects, NSError *error) {
@@ -38,12 +40,10 @@
             // The find succeeded.
             NSLog(@"Successfully retrieved %d events.", objects.count);
             // Do something with the found objects
-            for (PFObject *object in objects) {
-                NSLog(@"%@", [object objectForKey:@"name"]);
+            for (int i=0; i< [objects count]; i++) {
+                PFObject* object = [objects objectAtIndex:i];
                 [self.titles addObject:[object objectForKey:@"name"]];
                 [self.startTimes addObject:[object objectForKey:@"start_time"]];
-                NSLog(@"%@",[object objectForKey:@"start_time"]);
-                NSLog(@"%@",[self.startTimes objectAtIndex:[self.startTimes count]-1]);
                 [self.endTimes addObject:[object objectForKey:@"end_time"]];
             }
             [self.tableView reloadData];
@@ -85,16 +85,24 @@
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     // Configure the cell...
     if (cell==nil) {
-        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:CellIdentifier];
     }
     
     cell.textLabel.text = [self.titles objectAtIndex:indexPath.row];
     NSString *timesString = [NSString stringWithFormat:@"%@ to %@",
-                             [self.startTimes objectAtIndex:indexPath.row],
-                             [self.endTimes objectAtIndex:indexPath.row]];
+                             [self formatDate:[self.startTimes objectAtIndex:indexPath.row]],
+                             [self formatDate:[self.endTimes objectAtIndex:indexPath.row]]];
     NSLog(timesString);
     cell.detailTextLabel.text = timesString;
     return cell;
+}
+
+-(NSString*) formatDate: (NSString*) orig {
+    NSString* orig2 = [NSString stringWithFormat:@"%@",orig];
+    NSString* date = [NSString stringWithFormat:@"Oct %@, %@",
+                      [orig2 substringWithRange:NSMakeRange(9, 1)],
+                       [orig2 substringWithRange:NSMakeRange(11, 5)]];
+    return date;
 }
 
 /*
