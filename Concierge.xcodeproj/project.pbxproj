@@ -50,7 +50,6 @@
 		C09AEF8417A51F0900879A4C /* Screen Shot 2013-07-28 at 2.41.52 AM.png in Resources */ = {isa = PBXBuildFile; fileRef = C09AEF8317A51F0900879A4C /* Screen Shot 2013-07-28 at 2.41.52 AM.png */; };
 		C09AEF8617A51F1300879A4C /* food.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C09AEF8517A51F1200879A4C /* food.jpg */; };
 		C09AEF9017A5292500879A4C /* OpeningViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C09AEF8E17A5292500879A4C /* OpeningViewController.m */; };
-		C09AEF9117A5292500879A4C /* OpeningViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C09AEF8F17A5292500879A4C /* OpeningViewController.xib */; };
 		C09AEF9617A52E9000879A4C /* clock.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C09AEF9517A52E9000879A4C /* clock.jpg */; };
 		C09AEF9817A52E9800879A4C /* hackmit.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C09AEF9717A52E9800879A4C /* hackmit.jpg */; };
 		C09AEFA117A532CA00879A4C /* GetFoodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C09AEF9F17A532CA00879A4C /* GetFoodViewController.m */; };
@@ -68,7 +67,6 @@
 		C09AEFB517A53AB500879A4C /* hackmit.jpg in Sources */ = {isa = PBXBuildFile; fileRef = C09AEF9717A52E9800879A4C /* hackmit.jpg */; };
 		C09AEFB617A53AB500879A4C /* clock.jpg in Sources */ = {isa = PBXBuildFile; fileRef = C09AEF9517A52E9000879A4C /* clock.jpg */; };
 		C09AEFB717A53AB500879A4C /* GetServedViewController.xib in Sources */ = {isa = PBXBuildFile; fileRef = C09AEF8017A51CD500879A4C /* GetServedViewController.xib */; };
-		C09AEFB817A53AB500879A4C /* OpeningViewController.xib in Sources */ = {isa = PBXBuildFile; fileRef = C09AEF8F17A5292500879A4C /* OpeningViewController.xib */; };
 		C09AEFB917A53AB500879A4C /* Message.h in Sources */ = {isa = PBXBuildFile; fileRef = C09AEF6F17A519EB00879A4C /* Message.h */; };
 		C09AEFBA17A53AB500879A4C /* MessageUtil.h in Sources */ = {isa = PBXBuildFile; fileRef = C09AEF7117A519EB00879A4C /* MessageUtil.h */; };
 		C09AEFBB17A53AB500879A4C /* Person.h in Sources */ = {isa = PBXBuildFile; fileRef = C09AEF7317A519EB00879A4C /* Person.h */; };
@@ -94,6 +92,7 @@
 		C09AEFDD17A54A6100879A4C /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C09AEFDC17A54A6100879A4C /* Twitter.framework */; };
 		C09AEFFC17A5536E00879A4C /* hackmit_logo.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C09AEFFB17A5536E00879A4C /* hackmit_logo.jpeg */; };
 		C09AEFFE17A563E800879A4C /* MentorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C09AEFFD17A563E800879A4C /* MentorView.xib */; };
+		C09AF00217A567FC00879A4C /* OpeningViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C09AF00117A567FC00879A4C /* OpeningViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -142,7 +141,6 @@
 		C09AEF8517A51F1200879A4C /* food.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = food.jpg; sourceTree = "<group>"; };
 		C09AEF8D17A5292500879A4C /* OpeningViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpeningViewController.h; sourceTree = "<group>"; };
 		C09AEF8E17A5292500879A4C /* OpeningViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpeningViewController.m; sourceTree = "<group>"; };
-		C09AEF8F17A5292500879A4C /* OpeningViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OpeningViewController.xib; sourceTree = "<group>"; };
 		C09AEF9517A52E9000879A4C /* clock.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = clock.jpg; sourceTree = "<group>"; };
 		C09AEF9717A52E9800879A4C /* hackmit.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hackmit.jpg; sourceTree = "<group>"; };
 		C09AEF9E17A532CA00879A4C /* GetFoodViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetFoodViewController.h; sourceTree = "<group>"; };
@@ -171,6 +169,7 @@
 		C09AEFDC17A54A6100879A4C /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
 		C09AEFFB17A5536E00879A4C /* hackmit_logo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hackmit_logo.jpeg; sourceTree = "<group>"; };
 		C09AEFFD17A563E800879A4C /* MentorView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MentorView.xib; sourceTree = "<group>"; };
+		C09AF00117A567FC00879A4C /* OpeningViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OpeningViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -307,7 +306,7 @@
 				C09AEF9517A52E9000879A4C /* clock.jpg */,
 				C09AEF3B17A4E66800879A4C /* ViewController.xib */,
 				C09AEF8017A51CD500879A4C /* GetServedViewController.xib */,
-				C09AEF8F17A5292500879A4C /* OpeningViewController.xib */,
+				C09AF00117A567FC00879A4C /* OpeningViewController.xib */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -388,7 +387,6 @@
 				C09AEF8217A51CD500879A4C /* GetServedViewController.xib in Resources */,
 				C09AEF8417A51F0900879A4C /* Screen Shot 2013-07-28 at 2.41.52 AM.png in Resources */,
 				C09AEF8617A51F1300879A4C /* food.jpg in Resources */,
-				C09AEF9117A5292500879A4C /* OpeningViewController.xib in Resources */,
 				C09AEF9617A52E9000879A4C /* clock.jpg in Resources */,
 				C09AEF9817A52E9800879A4C /* hackmit.jpg in Resources */,
 				C09AEFA217A532CA00879A4C /* GetFoodViewController.xib in Resources */,
@@ -407,6 +405,7 @@
 				C09AEFDB17A544BE00879A4C /* DSC_7643.jpg in Resources */,
 				C09AEFFC17A5536E00879A4C /* hackmit_logo.jpeg in Resources */,
 				C09AEFFE17A563E800879A4C /* MentorView.xib in Resources */,
+				C09AF00217A567FC00879A4C /* OpeningViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,7 +423,6 @@
 				C09AEFB517A53AB500879A4C /* hackmit.jpg in Sources */,
 				C09AEFB617A53AB500879A4C /* clock.jpg in Sources */,
 				C09AEFB717A53AB500879A4C /* GetServedViewController.xib in Sources */,
-				C09AEFB817A53AB500879A4C /* OpeningViewController.xib in Sources */,
 				C09AEFB917A53AB500879A4C /* Message.h in Sources */,
 				C09AEFBA17A53AB500879A4C /* MessageUtil.h in Sources */,
 				C09AEFBB17A53AB500879A4C /* Person.h in Sources */,
