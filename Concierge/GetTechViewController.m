@@ -1,18 +1,18 @@
 //
-//  ComeHitherVC.m
+//  GetTechViewController.m
 //  Concierge
 //
-//  Created by Katie Siegel on 7/27/13.
+//  Created by Katie Siegel on 7/28/13.
 //  Copyright (c) 2013 Katie Siegel. All rights reserved.
 //
 
-#import "ComeHitherVC.h"
+#import "GetTechViewController.h"
 
-@interface ComeHitherVC ()
+@interface GetTechViewController ()
 
 @end
 
-@implementation ComeHitherVC
+@implementation GetTechViewController
 
 - (id)initWithStyle:(UITableViewStyle)style
 {
