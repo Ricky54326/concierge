@@ -199,6 +199,7 @@
 						<string key="NSFrame">{{151, 458}, {171, 46}}</string>
 						<reference key="NSSuperview" ref="774585933"/>
 						<reference key="NSWindow"/>
+						<reference key="NSNextKeyView"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<bool key="IBUIOpaque">NO</bool>
 						<bool key="IBUIClipsSubviews">YES</bool>
@@ -427,6 +428,22 @@
 						<reference key="destination" ref="678884204"/>
 					</object>
 					<int key="connectionID">98</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">socialButton</string>
+						<reference key="source" ref="372490531"/>
+						<reference key="destination" ref="166450512"/>
+					</object>
+					<int key="connectionID">346</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">talkButton</string>
+						<reference key="source" ref="372490531"/>
+						<reference key="destination" ref="587321447"/>
+					</object>
+					<int key="connectionID">347</int>
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">
@@ -1593,7 +1610,7 @@
 			<nil key="activeLocalization"/>
 			<dictionary class="NSMutableDictionary" key="localizations"/>
 			<nil key="sourceID"/>
-			<int key="maxID">345</int>
+			<int key="maxID">347</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<array class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -1610,7 +1627,6 @@
 					<string key="superclassName">UIViewController</string>
 					<dictionary class="NSMutableDictionary" key="actions">
 						<string key="comeHitherButtonPressed:">id</string>
-						<string key="mentorButtonPressed:">id</string>
 						<string key="scheduleButtonPressed:">id</string>
 						<string key="socialButtonPressed:">id</string>
 						<string key="talkButtonPressed:">id</string>
@@ -1618,10 +1634,6 @@
 					<dictionary class="NSMutableDictionary" key="actionInfosByName">
 						<object class="IBActionInfo" key="comeHitherButtonPressed:">
 							<string key="name">comeHitherButtonPressed:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-						<object class="IBActionInfo" key="mentorButtonPressed:">
-							<string key="name">mentorButtonPressed:</string>
 							<string key="candidateClassName">id</string>
 						</object>
 						<object class="IBActionInfo" key="scheduleButtonPressed:">
@@ -1638,17 +1650,13 @@
 						</object>
 					</dictionary>
 					<dictionary class="NSMutableDictionary" key="outlets">
-						<string key="chatButton">UIButton</string>
 						<string key="comeHitherButton">UIButton</string>
 						<string key="scheduleButton">UIButton</string>
 						<string key="socialButton">UIButton</string>
+						<string key="talkButton">UIButton</string>
 						<string key="timerLabel">UILabel</string>
 					</dictionary>
 					<dictionary class="NSMutableDictionary" key="toOneOutletInfosByName">
-						<object class="IBToOneOutletInfo" key="chatButton">
-							<string key="name">chatButton</string>
-							<string key="candidateClassName">UIButton</string>
-						</object>
 						<object class="IBToOneOutletInfo" key="comeHitherButton">
 							<string key="name">comeHitherButton</string>
 							<string key="candidateClassName">UIButton</string>
@@ -1659,6 +1667,10 @@
 						</object>
 						<object class="IBToOneOutletInfo" key="socialButton">
 							<string key="name">socialButton</string>
+							<string key="candidateClassName">UIButton</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="talkButton">
+							<string key="name">talkButton</string>
 							<string key="candidateClassName">UIButton</string>
 						</object>
 						<object class="IBToOneOutletInfo" key="timerLabel">

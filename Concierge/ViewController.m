@@ -34,7 +34,7 @@
 }
 
 -(IBAction)talkButtonPressed:(id)sender {
-    UIViewController *vc = [[TalkViewController alloc] initWithStyle: UITableViewStylePlain];
+    UIViewController *vc = [[MentorViewController alloc] initWithStyle: UITableViewStylePlain];
     
     [self.navigationController pushViewController:vc animated:YES];
 }

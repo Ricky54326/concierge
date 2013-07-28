@@ -11,7 +11,7 @@
 @interface ViewController : UIViewController {
     IBOutlet UILabel *timerLabel;
     NSDate *hackDate;
-    IBOutlet UIButton *chatButton;
+    IBOutlet UIButton *talkButton;
     IBOutlet UIButton *comeHitherButton;
     IBOutlet UIButton *socialButton;
     IBOutlet UIButton *scheduleButton;
