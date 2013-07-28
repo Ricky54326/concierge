@@ -29,16 +29,9 @@
 	Boolean inUser;
 }
 
-<<<<<<< HEAD
 @property (nonatomic,retain) UITextField* messageText;
 @property (nonatomic,retain) UIButton* sendButton;
 @property (nonatomic,retain) UITableView* messageList;
-=======
-
-@property (nonatomic,retain) UITextField *messageText;
-@property (nonatomic,retain) UIButton *sendButton;
-@property (nonatomic,retain) UITableView *messageList;
->>>>>>> 511bce2031532a0b8cd2454fb5a1d7f9e3a4b3b5
 
 - (IBAction)sendClicked:(id)sender;
 
