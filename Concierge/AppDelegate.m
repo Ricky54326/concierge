@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "OpeningViewController.h"
 #import "ViewController.h"
 #import <Parse/Parse.h>
 
@@ -22,7 +23,7 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     
-    self.viewController = [[ViewController alloc] initWithNibName:@"ViewController" bundle:nil];
+    self.viewController = [[OpeningViewController alloc] initWithNibName:@"OpeningViewController" bundle:nil];
     self.viewController = [[UINavigationController alloc] initWithRootViewController:self.viewController];
 
     self.window.rootViewController = self.viewController;
