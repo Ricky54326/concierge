@@ -7,13 +7,17 @@
 //
 
 #import "AppDelegate.h"
-
 #import "ViewController.h"
+
+#import "Person.h"
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    [Parse setApplicationId:@"inSNvmINeKuPwKQ9k9XyS9YCAQ2TKSAqZ6b3BSgu"
+                  clientKey:@"HJzdZLrVznQ16DBHWHucqo6zLSdzEvLStXqFcQFp"];
+    [PFAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     
@@ -22,6 +26,14 @@
 
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
+    
+    // TODO testing code here
+    Person *person = [[Person alloc] initWithType:@"hacker" andName:@"Kiran" andTeam:@"asdf"];
+    [person addJob:@"eat"];
+    [person setName:@"notKiran"];
+    [person setType:@"leader"];
+    // TODO end testing code here
+    
     return YES;
 }
 
