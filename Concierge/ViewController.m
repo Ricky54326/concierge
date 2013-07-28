@@ -67,11 +67,20 @@
         dateFormatter = [[NSDateFormatter alloc] init];
         dateFormatter.dateFormat = @"h:mm:ss a"; 
     }
-    int s = (int)difference % 60;
-    int m = (int)difference/60%60;
-    int h = (int)difference/3600;
+    NSString* s = [NSString stringWithFormat:@"%i",(int)difference % 60];
+    NSString* m = [NSString stringWithFormat:@"%i",(int)difference/60%60];
+    NSString* h = [NSString stringWithFormat:@"%i",(int)difference/3600];
+    if (s.length == 1) {
+        s = [NSString stringWithFormat:@"0%@",s];
+    }
+    if (m.length == 1) {
+        m = [NSString stringWithFormat:@"0%@",m];
+    }
+    if (h.length == 1) {
+        h = [NSString stringWithFormat:@"0%@",h];
+    }
     
-    timerLabel.text = [NSString stringWithFormat:@"%i : %i : %i", h, m, s];
+    timerLabel.text = [NSString stringWithFormat:@"%@ : %@ : %@", h, m, s];
 }
 
 @end

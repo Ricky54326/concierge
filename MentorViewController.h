@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MentorViewController : UITableViewController
+@interface MentorViewController : UITableViewController {
+    IBOutlet UIView *view;
+}
 
 @end

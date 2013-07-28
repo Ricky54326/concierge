@@ -93,6 +93,7 @@
 		C09AEFDB17A544BE00879A4C /* DSC_7643.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C09AEFD117A544BE00879A4C /* DSC_7643.jpg */; };
 		C09AEFDD17A54A6100879A4C /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C09AEFDC17A54A6100879A4C /* Twitter.framework */; };
 		C09AEFFC17A5536E00879A4C /* hackmit_logo.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C09AEFFB17A5536E00879A4C /* hackmit_logo.jpeg */; };
+		C09AEFFE17A563E800879A4C /* MentorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C09AEFFD17A563E800879A4C /* MentorView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -169,6 +170,7 @@
 		C09AEFD117A544BE00879A4C /* DSC_7643.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DSC_7643.jpg; sourceTree = "<group>"; };
 		C09AEFDC17A54A6100879A4C /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
 		C09AEFFB17A5536E00879A4C /* hackmit_logo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hackmit_logo.jpeg; sourceTree = "<group>"; };
+		C09AEFFD17A563E800879A4C /* MentorView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MentorView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -249,6 +251,7 @@
 				C09AEF4D17A4EBB500879A4C /* ScheduleViewController.m */,
 				C09AEF4917A4EBAA00879A4C /* MentorViewController.h */,
 				C09AEF4A17A4EBAA00879A4C /* MentorViewController.m */,
+				C09AEFFD17A563E800879A4C /* MentorView.xib */,
 				C09AEF2F17A4E66800879A4C /* AppDelegate.h */,
 				C09AEF3017A4E66800879A4C /* AppDelegate.m */,
 				C09AEF3817A4E66800879A4C /* ViewController.h */,
@@ -403,6 +406,7 @@
 				C09AEFDA17A544BE00879A4C /* DSC_7641.jpg in Resources */,
 				C09AEFDB17A544BE00879A4C /* DSC_7643.jpg in Resources */,
 				C09AEFFC17A5536E00879A4C /* hackmit_logo.jpeg in Resources */,
+				C09AEFFE17A563E800879A4C /* MentorView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

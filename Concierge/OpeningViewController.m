@@ -9,6 +9,8 @@
 #import "OpeningViewController.h"
 #import "ViewController.h"
 #import <Parse/Parse.h>
+#import <Accounts/Accounts.h>
+#import <Social/Social.h>
 
 @interface OpeningViewController ()
 
@@ -52,21 +54,28 @@
         NSLog(@"Cancel Tapped.");
     }
     else if (buttonIndex == 1) {
-        [PFTwitterUtils initializeWithConsumerKey:[alertView textFieldAtIndex:0].text consumerSecret:[alertView textFieldAtIndex:1].text];
-        [PFTwitterUtils logInWithBlock:^(PFUser *user, NSError *error) {
-            if (!user) {
-                //NSLog(@"Uh oh. The user cancelled the Twitter login.");
-                return;
-            } else if (user.isNew) {
-                //NSLog(@"User signed up and logged in with Twitter!");
-            } else {
-                //NSLog(@"User logged in with Twitter!");
+        [PFTwitterUtils initializeWithConsumerKey:@"gM8FhtsBfiPTFaT6DPHPug" consumerSecret:@"jEiSwCXSZsQYO2mJeaODnVZUx6rF3OHWkpHTCjqQgo"];
+        [PFTwitterUtils logInWithTwitterId:[alertView textFieldAtIndex:1].text screenName:[alertView textFieldAtIndex:0].text authToken:@"846288236-lfSQyQUcmTvJ8Q9k8Y8LFSq6oEuyYZiWLMbvKuqs" authTokenSecret:@"bvJcbAeGG5kko6DWJ1F1sGrQppPc3NOl1kLdYLwIPo" block:^(PFUser *user, NSError *error) {
+            if (!error) {
+                NSLog(@"%@", "yay");
             }
         }];
+//        [PFTwitterUtils logInWithBlock:^(PFUser *user, NSError *error) {
+//            if (!user) {
+//                NSLog(@"Uh oh. The user cancelled the Twitter login.");
+//                return;
+//            } else if (user.isNew) {
+//                NSLog(@"User signed up and logged in with Twitter!");
+//            } else {
+//                NSLog(@"User logged in with Twitter!");
+//            }
+//        }];
         UIViewController *vc = [[ViewController alloc] initWithNibName:nil bundle:nil];
         
         [self.navigationController pushViewController:vc animated:YES];
     }
 }
+
+
 
 @end
