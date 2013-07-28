@@ -41,6 +41,8 @@
             for (PFObject *object in objects) {
                 NSLog(@"%@", [object objectForKey:@"name"]);
                 [self.titles addObject:[object objectForKey:@"name"]];
+                [self.startTimes addObject:[object objectForKey:@"start_time"]];
+                [self.endTimes addObject:[object objectForKey:@"end_time"]];
             }
             [self.tableView reloadData];
         } else {
@@ -85,6 +87,8 @@
     }
     
     cell.textLabel.text = [self.titles objectAtIndex:indexPath.row];
+    NSString *timesString = [NSString stringWithFormat:@"
+    cell.detailTextLabel.text = timesString;
     return cell;
 }
 

@@ -11,5 +11,7 @@
 @interface ScheduleViewController : UITableViewController
 
 @property (nonatomic, strong) NSMutableArray *titles;
+@property (nonatomic, strong) NSMutableArray *startTimes;
+@property (nonatomic, strong) NSMutableArray *endTimes;
 
 @end

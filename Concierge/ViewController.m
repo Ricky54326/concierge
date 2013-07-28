@@ -80,7 +80,7 @@
         h = [NSString stringWithFormat:@"0%@",h];
     }
     
-    timerLabel.text = [NSString stringWithFormat:@"%@ : %@ : %@", h, m, s];
+    timerLabel.text = [NSString stringWithFormat:@"%@:%@:%@", h, m, s];
 }
 
 @end
