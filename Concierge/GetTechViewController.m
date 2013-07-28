@@ -83,6 +83,7 @@
     if (cell==nil) {
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
         [cell setSelectionStyle:UITableViewCellSelectionStyleNone];
+        cell.textLabel.font = [UIFont fontWithName:@"HelveticaNeue-Light" size:17.0];
     }
     
     cell.textLabel.text = [self.titles objectAtIndex:indexPath.row];

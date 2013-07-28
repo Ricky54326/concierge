@@ -53,7 +53,7 @@
             NSLog(@"Error: %@ %@", error, [error userInfo]);
         }
     }];
-    
+
     [self.tableView reloadData];
 }
 
@@ -96,6 +96,9 @@
                              [self formatDate:[self.endTimes objectAtIndex:indexPath.row]]];
     NSLog(timesString);
     cell.detailTextLabel.text = timesString;
+    
+    cell.textLabel.font = [UIFont fontWithName:@"HelveticaNeue-Light" size:17.0];
+    cell.detailTextLabel.font = [UIFont fontWithName:@"HelveticaNeue-Light" size:12.0];
     return cell;
 }
 
