@@ -29,6 +29,9 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    
+    [[foodButton imageView] setContentMode: UIViewContentModeScaleAspectFill];
+    [[techButton imageView] setContentMode: UIViewContentModeScaleAspectFill];
 }
 
 - (void)didReceiveMemoryWarning
@@ -38,7 +41,13 @@
 }
 
 -(IBAction)foodButtonPressed:(id)sender {
-    UIViewController *vc = [[MentorViewController alloc] initWithStyle:UITableViewStylePlain];
+    UIViewController *vc = [[GetFoodViewController alloc] initWithStyle:UITableViewStylePlain];
+    
+    [self.navigationController pushViewController:vc animated:YES];
+}
+
+-(IBAction)techButtonPressed:(id)sender {
+    UIViewController *vc = [[GetTechViewController alloc] initWithStyle:UITableViewStylePlain];
     
     [self.navigationController pushViewController:vc animated:YES];
 }

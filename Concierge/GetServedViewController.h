@@ -8,7 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface GetServedViewController : UIViewController
+@interface GetServedViewController : UIViewController {
+    IBOutlet UIButton* foodButton;
+    IBOutlet UIButton* techButton;
+}
 
 -(IBAction)foodButtonPressed:(id)sender;
 -(IBAction)techButtonPressed:(id)sender;

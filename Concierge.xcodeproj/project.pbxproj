@@ -49,8 +49,14 @@
 		C09AEF8217A51CD500879A4C /* GetServedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C09AEF8017A51CD500879A4C /* GetServedViewController.xib */; };
 		C09AEF8417A51F0900879A4C /* Screen Shot 2013-07-28 at 2.41.52 AM.png in Resources */ = {isa = PBXBuildFile; fileRef = C09AEF8317A51F0900879A4C /* Screen Shot 2013-07-28 at 2.41.52 AM.png */; };
 		C09AEF8617A51F1300879A4C /* food.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C09AEF8517A51F1200879A4C /* food.jpg */; };
-		C09AEF8917A5218D00879A4C /* GetFoodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C09AEF8817A5218D00879A4C /* GetFoodViewController.m */; };
-		C09AEF8C17A5219A00879A4C /* GetTechViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C09AEF8B17A5219A00879A4C /* GetTechViewController.m */; };
+		C09AEF9017A5292500879A4C /* OpeningViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C09AEF8E17A5292500879A4C /* OpeningViewController.m */; };
+		C09AEF9117A5292500879A4C /* OpeningViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C09AEF8F17A5292500879A4C /* OpeningViewController.xib */; };
+		C09AEF9617A52E9000879A4C /* clock.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C09AEF9517A52E9000879A4C /* clock.jpg */; };
+		C09AEF9817A52E9800879A4C /* hackmit.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C09AEF9717A52E9800879A4C /* hackmit.jpg */; };
+		C09AEFA117A532CA00879A4C /* GetFoodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C09AEF9F17A532CA00879A4C /* GetFoodViewController.m */; };
+		C09AEFA217A532CA00879A4C /* GetFoodViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C09AEFA017A532CA00879A4C /* GetFoodViewController.xib */; };
+		C09AEFA617A532FB00879A4C /* GetTechViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C09AEFA417A532FB00879A4C /* GetTechViewController.m */; };
+		C09AEFA717A532FB00879A4C /* GetTechViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C09AEFA517A532FB00879A4C /* GetTechViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -97,10 +103,17 @@
 		C09AEF8017A51CD500879A4C /* GetServedViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GetServedViewController.xib; sourceTree = "<group>"; };
 		C09AEF8317A51F0900879A4C /* Screen Shot 2013-07-28 at 2.41.52 AM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2013-07-28 at 2.41.52 AM.png"; sourceTree = "<group>"; };
 		C09AEF8517A51F1200879A4C /* food.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = food.jpg; sourceTree = "<group>"; };
-		C09AEF8717A5218D00879A4C /* GetFoodViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetFoodViewController.h; sourceTree = "<group>"; };
-		C09AEF8817A5218D00879A4C /* GetFoodViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetFoodViewController.m; sourceTree = "<group>"; };
-		C09AEF8A17A5219A00879A4C /* GetTechViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetTechViewController.h; sourceTree = "<group>"; };
-		C09AEF8B17A5219A00879A4C /* GetTechViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetTechViewController.m; sourceTree = "<group>"; };
+		C09AEF8D17A5292500879A4C /* OpeningViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpeningViewController.h; sourceTree = "<group>"; };
+		C09AEF8E17A5292500879A4C /* OpeningViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpeningViewController.m; sourceTree = "<group>"; };
+		C09AEF8F17A5292500879A4C /* OpeningViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OpeningViewController.xib; sourceTree = "<group>"; };
+		C09AEF9517A52E9000879A4C /* clock.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = clock.jpg; sourceTree = "<group>"; };
+		C09AEF9717A52E9800879A4C /* hackmit.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hackmit.jpg; sourceTree = "<group>"; };
+		C09AEF9E17A532CA00879A4C /* GetFoodViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetFoodViewController.h; sourceTree = "<group>"; };
+		C09AEF9F17A532CA00879A4C /* GetFoodViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetFoodViewController.m; sourceTree = "<group>"; };
+		C09AEFA017A532CA00879A4C /* GetFoodViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GetFoodViewController.xib; sourceTree = "<group>"; };
+		C09AEFA317A532FB00879A4C /* GetTechViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetTechViewController.h; sourceTree = "<group>"; };
+		C09AEFA417A532FB00879A4C /* GetTechViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetTechViewController.m; sourceTree = "<group>"; };
+		C09AEFA517A532FB00879A4C /* GetTechViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GetTechViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,6 +180,7 @@
 		C09AEF2617A4E66800879A4C /* Concierge */ = {
 			isa = PBXGroup;
 			children = (
+				C09AEF9217A529E900879A4C /* Views */,
 				C09AEF4C17A4EBB500879A4C /* ScheduleViewController.h */,
 				C09AEF4D17A4EBB500879A4C /* ScheduleViewController.m */,
 				C09AEF4917A4EBAA00879A4C /* MentorViewController.h */,
@@ -175,16 +189,17 @@
 				C09AEF3017A4E66800879A4C /* AppDelegate.m */,
 				C09AEF3817A4E66800879A4C /* ViewController.h */,
 				C09AEF3917A4E66800879A4C /* ViewController.m */,
-				C09AEF3B17A4E66800879A4C /* ViewController.xib */,
 				C09AEF2717A4E66800879A4C /* Supporting Files */,
 				C09AEF4617A4EB9300879A4C /* TalkViewController.h */,
 				C09AEF4717A4EB9300879A4C /* TalkViewController.m */,
-				C09AEF8517A51F1200879A4C /* food.jpg */,
-				C09AEF8317A51F0900879A4C /* Screen Shot 2013-07-28 at 2.41.52 AM.png */,
-				C09AEF8717A5218D00879A4C /* GetFoodViewController.h */,
-				C09AEF8817A5218D00879A4C /* GetFoodViewController.m */,
-				C09AEF8A17A5219A00879A4C /* GetTechViewController.h */,
-				C09AEF8B17A5219A00879A4C /* GetTechViewController.m */,
+				C09AEF8D17A5292500879A4C /* OpeningViewController.h */,
+				C09AEF8E17A5292500879A4C /* OpeningViewController.m */,
+				C09AEF9E17A532CA00879A4C /* GetFoodViewController.h */,
+				C09AEF9F17A532CA00879A4C /* GetFoodViewController.m */,
+				C09AEFA017A532CA00879A4C /* GetFoodViewController.xib */,
+				C09AEFA317A532FB00879A4C /* GetTechViewController.h */,
+				C09AEFA417A532FB00879A4C /* GetTechViewController.m */,
+				C09AEFA517A532FB00879A4C /* GetTechViewController.xib */,
 			);
 			path = Concierge;
 			sourceTree = "<group>";
@@ -207,9 +222,22 @@
 				C09AEF3617A4E66800879A4C /* Default-568h@2x.png */,
 				C09AEF7E17A51CD500879A4C /* GetServedViewController.h */,
 				C09AEF7F17A51CD500879A4C /* GetServedViewController.m */,
-				C09AEF8017A51CD500879A4C /* GetServedViewController.xib */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C09AEF9217A529E900879A4C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C09AEF8517A51F1200879A4C /* food.jpg */,
+				C09AEF8317A51F0900879A4C /* Screen Shot 2013-07-28 at 2.41.52 AM.png */,
+				C09AEF9717A52E9800879A4C /* hackmit.jpg */,
+				C09AEF9517A52E9000879A4C /* clock.jpg */,
+				C09AEF3B17A4E66800879A4C /* ViewController.xib */,
+				C09AEF8017A51CD500879A4C /* GetServedViewController.xib */,
+				C09AEF8F17A5292500879A4C /* OpeningViewController.xib */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,6 +299,11 @@
 				C09AEF8217A51CD500879A4C /* GetServedViewController.xib in Resources */,
 				C09AEF8417A51F0900879A4C /* Screen Shot 2013-07-28 at 2.41.52 AM.png in Resources */,
 				C09AEF8617A51F1300879A4C /* food.jpg in Resources */,
+				C09AEF9117A5292500879A4C /* OpeningViewController.xib in Resources */,
+				C09AEF9617A52E9000879A4C /* clock.jpg in Resources */,
+				C09AEF9817A52E9800879A4C /* hackmit.jpg in Resources */,
+				C09AEFA217A532CA00879A4C /* GetFoodViewController.xib in Resources */,
+				C09AEFA717A532FB00879A4C /* GetTechViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,8 +335,9 @@
 				C09AEF7617A519EC00879A4C /* MessageUtil.m in Sources */,
 				C09AEF7717A519EC00879A4C /* Person.m in Sources */,
 				C09AEF8117A51CD500879A4C /* GetServedViewController.m in Sources */,
-				C09AEF8917A5218D00879A4C /* GetFoodViewController.m in Sources */,
-				C09AEF8C17A5219A00879A4C /* GetTechViewController.m in Sources */,
+				C09AEF9017A5292500879A4C /* OpeningViewController.m in Sources */,
+				C09AEFA117A532CA00879A4C /* GetFoodViewController.m in Sources */,
+				C09AEFA617A532FB00879A4C /* GetTechViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

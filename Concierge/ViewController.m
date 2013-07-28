@@ -7,7 +7,6 @@
 //
 
 #import "ViewController.h"
-#import "ComeHitherVC.h"
 #import "TalkViewController.h"
 #import "MentorViewController.h"
 #import "ScheduleViewController.h"
