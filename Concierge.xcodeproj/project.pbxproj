@@ -19,6 +19,9 @@
 		C09AEF3A17A4E66800879A4C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C09AEF3917A4E66800879A4C /* ViewController.m */; };
 		C09AEF3D17A4E66800879A4C /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C09AEF3B17A4E66800879A4C /* ViewController.xib */; };
 		C09AEF4517A4E6A900879A4C /* ComeHitherVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C09AEF4417A4E6A900879A4C /* ComeHitherVC.m */; };
+		C09AEF4817A4EB9300879A4C /* TalkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C09AEF4717A4EB9300879A4C /* TalkViewController.m */; };
+		C09AEF4B17A4EBAA00879A4C /* MentorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C09AEF4A17A4EBAA00879A4C /* MentorViewController.m */; };
+		C09AEF4E17A4EBB500879A4C /* ScheduleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C09AEF4D17A4EBB500879A4C /* ScheduleViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +43,12 @@
 		C09AEF3C17A4E66800879A4C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
 		C09AEF4317A4E6A900879A4C /* ComeHitherVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComeHitherVC.h; sourceTree = "<group>"; };
 		C09AEF4417A4E6A900879A4C /* ComeHitherVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComeHitherVC.m; sourceTree = "<group>"; };
+		C09AEF4617A4EB9300879A4C /* TalkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TalkViewController.h; sourceTree = "<group>"; };
+		C09AEF4717A4EB9300879A4C /* TalkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TalkViewController.m; sourceTree = "<group>"; };
+		C09AEF4917A4EBAA00879A4C /* MentorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MentorViewController.h; sourceTree = "<group>"; };
+		C09AEF4A17A4EBAA00879A4C /* MentorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MentorViewController.m; sourceTree = "<group>"; };
+		C09AEF4C17A4EBB500879A4C /* ScheduleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleViewController.h; sourceTree = "<group>"; };
+		C09AEF4D17A4EBB500879A4C /* ScheduleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +68,10 @@
 		C09AEF1417A4E66800879A4C = {
 			isa = PBXGroup;
 			children = (
+				C09AEF4C17A4EBB500879A4C /* ScheduleViewController.h */,
+				C09AEF4D17A4EBB500879A4C /* ScheduleViewController.m */,
+				C09AEF4917A4EBAA00879A4C /* MentorViewController.h */,
+				C09AEF4A17A4EBAA00879A4C /* MentorViewController.m */,
 				C09AEF2617A4E66800879A4C /* Concierge */,
 				C09AEF1F17A4E66800879A4C /* Frameworks */,
 				C09AEF1E17A4E66800879A4C /* Products */,
@@ -94,6 +107,8 @@
 				C09AEF4317A4E6A900879A4C /* ComeHitherVC.h */,
 				C09AEF4417A4E6A900879A4C /* ComeHitherVC.m */,
 				C09AEF2717A4E66800879A4C /* Supporting Files */,
+				C09AEF4617A4EB9300879A4C /* TalkViewController.h */,
+				C09AEF4717A4EB9300879A4C /* TalkViewController.m */,
 			);
 			path = Concierge;
 			sourceTree = "<group>";
@@ -182,6 +197,9 @@
 				C09AEF3117A4E66800879A4C /* AppDelegate.m in Sources */,
 				C09AEF3A17A4E66800879A4C /* ViewController.m in Sources */,
 				C09AEF4517A4E6A900879A4C /* ComeHitherVC.m in Sources */,
+				C09AEF4817A4EB9300879A4C /* TalkViewController.m in Sources */,
+				C09AEF4B17A4EBAA00879A4C /* MentorViewController.m in Sources */,
+				C09AEF4E17A4EBB500879A4C /* ScheduleViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,6 +322,7 @@
 				C09AEF4217A4E66800879A4C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
