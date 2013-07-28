@@ -10,4 +10,6 @@
 
 @interface TalkViewController : UITableViewController
 
+@property (nonatomic, strong) NSArray *titles;
+
 @end
