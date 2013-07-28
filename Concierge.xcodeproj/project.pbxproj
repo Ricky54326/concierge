@@ -47,6 +47,8 @@
 		C09AEF7517A519EC00879A4C /* Message.m in Sources */ = {isa = PBXBuildFile; fileRef = C09AEF7017A519EB00879A4C /* Message.m */; };
 		C09AEF7617A519EC00879A4C /* MessageUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = C09AEF7217A519EB00879A4C /* MessageUtil.m */; };
 		C09AEF7717A519EC00879A4C /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = C09AEF7417A519EC00879A4C /* Person.m */; };
+		EAC08B3D17A51EC000023D84 /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC08B3A17A51EC000023D84 /* Event.m */; };
+		EAC08B3E17A51EC000023D84 /* EventUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC08B3C17A51EC000023D84 /* EventUtil.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -90,6 +92,10 @@
 		C09AEF7217A519EB00879A4C /* MessageUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageUtil.m; sourceTree = "<group>"; };
 		C09AEF7317A519EB00879A4C /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		C09AEF7417A519EC00879A4C /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		EAC08B3917A51EC000023D84 /* Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Event.h; sourceTree = "<group>"; };
+		EAC08B3A17A51EC000023D84 /* Event.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Event.m; sourceTree = "<group>"; };
+		EAC08B3B17A51EC000023D84 /* EventUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventUtil.h; sourceTree = "<group>"; };
+		EAC08B3C17A51EC000023D84 /* EventUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventUtil.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -177,6 +183,10 @@
 		C09AEF2717A4E66800879A4C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				EAC08B3917A51EC000023D84 /* Event.h */,
+				EAC08B3A17A51EC000023D84 /* Event.m */,
+				EAC08B3B17A51EC000023D84 /* EventUtil.h */,
+				EAC08B3C17A51EC000023D84 /* EventUtil.m */,
 				C09AEF6F17A519EB00879A4C /* Message.h */,
 				C09AEF7017A519EB00879A4C /* Message.m */,
 				C09AEF7117A519EB00879A4C /* MessageUtil.h */,
@@ -282,6 +292,8 @@
 				C09AEF7517A519EC00879A4C /* Message.m in Sources */,
 				C09AEF7617A519EC00879A4C /* MessageUtil.m in Sources */,
 				C09AEF7717A519EC00879A4C /* Person.m in Sources */,
+				EAC08B3D17A51EC000023D84 /* Event.m in Sources */,
+				EAC08B3E17A51EC000023D84 /* EventUtil.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
