@@ -10,4 +10,6 @@
 
 @interface MentorViewController : UITableViewController
 
+@property (nonatomic, strong) NSMutableArray *titles;
+
 @end
