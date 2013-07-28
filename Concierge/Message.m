@@ -16,7 +16,7 @@
 @synthesize request_type = _request_type;
 @synthesize text = _text;
 
-- (id)initWithType:(NSString *)hacker_id andLeader:(NSString *)leader_id andType:(NSString *)type andRequestType: (NSString *)request_type andText: (NSString*)test {
+- (id)initWithType:(NSString *)hacker_id andLeader:(NSString *)leader_id andType:(NSString *)type andRequestType: (NSString *)request_type andText: (NSString*)text {
     
     if ((self = [super init]))
 	{
@@ -31,22 +31,22 @@
     
 }
 
-- (void)send: (Message) message {
+- (void)send {
     PFObject *tosend = [PFObject objectWithClassName:@"message"];
-    [tosend setObject: message.hacker_id forKey:@"hacker_id"];
-    [tosend setObject: message.leader_id forKey:@"leader_id"];
-    [tosend setObject: message.type forKey:@"type"];
-    [tosend setObject: message.request_type forKey:@"request_type"];
-    [tosend setObject: message.text forKey:@"text"];
+    [tosend setObject: self.hacker_id forKey:@"hacker_id"];
+    [tosend setObject: self.leader_id forKey:@"leader_id"];
+    [tosend setObject: self.type forKey:@"type"];
+    [tosend setObject: self.request_type forKey:@"request_type"];
+    [tosend setObject: self.text forKey:@"text"];
     [tosend saveInBackground];
    
 }
 
-- (void)isMessageThere:(Message)message {
+- (void)isMessageThere {
     
 }
 
-- (void)removeMessage: (Message) message {
+- (void)removeMessage {
     
 }
 
