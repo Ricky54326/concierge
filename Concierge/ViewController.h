@@ -8,12 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController {
+    IBOutlet UILabel *timerLabel;
+}
 
 -(IBAction)talkButtonPressed:(id)sender;
 -(IBAction)comeHitherButtonPressed:(id)sender;
 -(IBAction)mentorButtonPressed:(id)sender;
 -(IBAction)scheduleButtonPressed:(id)sender;
-
 
 @end
