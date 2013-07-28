@@ -34,7 +34,7 @@
 }
 
 -(IBAction)talkButtonPressed:(id)sender {
-    UIViewController *vc = [[TalkViewController alloc] initWithStyle: UITableViewStylePlain];
+    UIViewController *vc = [[MentorViewController alloc] initWithStyle: UITableViewStylePlain];
     
     [self.navigationController pushViewController:vc animated:YES];
 }
@@ -45,8 +45,8 @@
     [self.navigationController pushViewController:vc animated:YES];
 }
 
--(IBAction)mentorButtonPressed:(id)sender {
-    UIViewController *vc = [[MentorViewController alloc] initWithStyle:UITableViewStylePlain];
+-(IBAction)socialButtonPressed:(id)sender {
+    UIViewController *vc = [[TalkViewController alloc] initWithStyle:UITableViewStylePlain];
     
     [self.navigationController pushViewController:vc animated:YES];
 }

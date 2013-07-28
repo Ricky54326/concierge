@@ -12,4 +12,6 @@
     IBOutlet UIView *view;
 }
 
+@property (nonatomic, strong) NSMutableArray *titles;
+
 @end
