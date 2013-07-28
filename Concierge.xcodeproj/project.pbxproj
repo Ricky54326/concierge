@@ -32,6 +32,9 @@
 		EAC08B0D17A4FDDB00023D84 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAC08B0C17A4FDDB00023D84 /* Security.framework */; };
 		EAC08B0F17A4FDE000023D84 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAC08B0E17A4FDE000023D84 /* StoreKit.framework */; };
 		EAC08B1117A4FDE600023D84 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAC08B1017A4FDE600023D84 /* SystemConfiguration.framework */; };
+		EAC08B1817A5016B00023D84 /* Message.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC08B1317A5016B00023D84 /* Message.m */; };
+		EAC08B1917A5016B00023D84 /* MessageUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC08B1517A5016B00023D84 /* MessageUtil.m */; };
+		EAC08B1A17A5016B00023D84 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC08B1717A5016B00023D84 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -69,6 +72,12 @@
 		EAC08B0C17A4FDDB00023D84 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		EAC08B0E17A4FDE000023D84 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		EAC08B1017A4FDE600023D84 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		EAC08B1217A5016B00023D84 /* Message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Message.h; sourceTree = "<group>"; };
+		EAC08B1317A5016B00023D84 /* Message.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Message.m; sourceTree = "<group>"; };
+		EAC08B1417A5016B00023D84 /* MessageUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageUtil.h; sourceTree = "<group>"; };
+		EAC08B1517A5016B00023D84 /* MessageUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageUtil.m; sourceTree = "<group>"; };
+		EAC08B1617A5016B00023D84 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		EAC08B1717A5016B00023D84 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +148,12 @@
 		C09AEF2617A4E66800879A4C /* Concierge */ = {
 			isa = PBXGroup;
 			children = (
+				EAC08B1217A5016B00023D84 /* Message.h */,
+				EAC08B1317A5016B00023D84 /* Message.m */,
+				EAC08B1417A5016B00023D84 /* MessageUtil.h */,
+				EAC08B1517A5016B00023D84 /* MessageUtil.m */,
+				EAC08B1617A5016B00023D84 /* Person.h */,
+				EAC08B1717A5016B00023D84 /* Person.m */,
 				C09AEF2F17A4E66800879A4C /* AppDelegate.h */,
 				C09AEF3017A4E66800879A4C /* AppDelegate.m */,
 				C09AEF3817A4E66800879A4C /* ViewController.h */,
@@ -240,6 +255,9 @@
 				C09AEF4817A4EB9300879A4C /* TalkViewController.m in Sources */,
 				C09AEF4B17A4EBAA00879A4C /* MentorViewController.m in Sources */,
 				C09AEF4E17A4EBB500879A4C /* ScheduleViewController.m in Sources */,
+				EAC08B1817A5016B00023D84 /* Message.m in Sources */,
+				EAC08B1917A5016B00023D84 /* MessageUtil.m in Sources */,
+				EAC08B1A17A5016B00023D84 /* Person.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
