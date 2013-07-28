@@ -20,7 +20,7 @@
 
 - (id)initWithType:(NSString *)hacker_id andLeader:(NSString *)leader_id andType:(NSString *)type andRequestType: (NSString *)request_type andText: (NSString*)text;
 - (void)send;
-- (void)isMessageThere;
+- (BOOL)isMessageThere;
 - (void)removeMessage;
 
 @end
