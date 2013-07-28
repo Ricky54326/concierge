@@ -13,6 +13,6 @@
 
 @interface MessageUtil : NSObject
 
-- (NSArray *)downloadRelevantMessages:(Person *)person;
+- (NSMutableArray *)downloadRelevantMessages:(Person *)person;
 
 @end

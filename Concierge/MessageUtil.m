@@ -10,7 +10,7 @@
 
 @implementation MessageUtil
 
-- (NSArray *)downloadRelevantMessages:(Person *)person
+- (NSMutableArray *)downloadRelevantMessages:(Person *)person
 {
     __block NSArray *array = [[NSArray alloc] init];
     PFQuery *query = [PFQuery queryWithClassName:@"message"];
@@ -52,7 +52,20 @@
     else {
         // cry moar
     }
-    return array;
+    
+    NSMutableArray *results = [[NSMutableArray alloc] init];
+    for (int i = 0; i < array.count; i++) {
+        PFObject * current = [array objectAtIndex:i];
+        NSString *hacker_id = [current objectForKey:@"hacker_id"];
+        NSString *leader_id = [current objectForKey:@"leader_id"];
+        NSString *type = [current objectForKey:@"type"];
+        NSString *request_type = [current objectForKey:@"request_type"];
+        NSString *text = [current objectForKey:@"text"];
+        Message * message = [[Message alloc] initWithHacker:hacker_id andLeader:leader_id andType:type andRequestType:request_type andText:text];
+        [results addObject:message];
+    }
+    
+    return results;
 }
 
 @end
