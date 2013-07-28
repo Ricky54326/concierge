@@ -87,7 +87,10 @@
     }
     
     cell.textLabel.text = [self.titles objectAtIndex:indexPath.row];
-    NSString *timesString = [NSString stringWithFormat:@"
+    NSString *timesString = [NSString stringWithFormat:@"%@ to %@",
+                             [self.startTimes objectAtIndex:indexPath.row],
+                             [self.endTimes objectAtIndex:indexPath.row]];
+    NSLog(timesString);
     cell.detailTextLabel.text = timesString;
     return cell;
 }
