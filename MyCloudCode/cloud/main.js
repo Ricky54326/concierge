@@ -17,6 +17,40 @@ Parse.Cloud.define("textMentor", function(request, response) {
       }
     });
 });
+Parse.Cloud.define("textTech", function(request, response) {
+    Twilio.sendSMS({
+      From: "+14088494309",
+      To: "+19542604240",
+      Body: "Request for gadgets: ipad. Reach me at 4086918871"
+    }, {
+      success: function(httpResponse) {
+        console.log(httpResponse);
+        response.success("SMS sent!");
+      },
+      error: function(httpResponse) {
+        console.error(httpResponse);
+        response.error("Uh oh, something went wrong");
+      }
+    });
+});
+Parse.Cloud.define("textFood", function(request, response) {
+    Twilio.sendSMS({
+      From: "+14088494309",
+      To: "+19542604240",
+      Body: "Request for food: I scream for Ice Cream. Reach me at 4086918871"
+    }, {
+      success: function(httpResponse) {
+        console.log(httpResponse);
+        response.success("SMS sent!");
+      },
+      error: function(httpResponse) {
+        console.error(httpResponse);
+        response.error("Uh oh, something went wrong");
+      }
+    });
+});
+
+
 
 // Use Parse.Cloud.define to define as many cloud functions as you want.
 // For example:
