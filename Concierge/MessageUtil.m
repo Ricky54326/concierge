@@ -10,8 +10,9 @@
 
 @implementation MessageUtil
 
-- (NSArray *)downloadRelevantMessages: (Person) person {
-    
+- (NSArray *)downloadRelevantMessages:(Person *)person
+{
+    __block NSArray *array = [[NSArray alloc] init];
     PFQuery *query = [PFQuery queryWithClassName:@"message"];
     if ([person.type isEqualToString: @"hacker"]) {
         // relevant messages are all of type response
@@ -24,15 +25,14 @@
                 // Do something with the found objects
                 /*for (PFObject *object in objects) {
                     NSLog(@"%@", object.objectId);
-                }*/
-                return objects;
+                 }*/
+                array = objects;
             } else {
                 // Log details of the failure
                 NSLog(@"Error: %@ %@", error, [error userInfo]);
             }
         }];
-    }
-    else if ([person.type isEqualToString: @"leader"] && [person.available != NO]){
+    } else if ([person.type isEqualToString: @"leader"] && person.available != NO){
         // relevant messages are all of type request
         [query whereKey:@"type" equalTo:@"request"];
         
@@ -42,13 +42,7 @@
         
         [query findObjectsInBackgroundWithBlock:^(NSArray *objects, NSError *error) {
             if (!error) {
-                // The find succeeded.
-                //NSLog(@"Successfully retrieved %d scores.", objects.count);
-                // Do something with the found objects
-                /*for (PFObject *object in objects) {
-                 NSLog(@"%@", object.objectId);
-                 }*/
-                return objects;
+                array = objects;
             } else {
                 // Log details of the failure
                 NSLog(@"Error: %@ %@", error, [error userInfo]);
@@ -58,6 +52,7 @@
     else {
         // cry moar
     }
+    return array;
 }
 
 @end

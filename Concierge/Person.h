@@ -15,7 +15,7 @@
 @property (nonatomic, strong) NSString *type; // hacker or leader
 @property (nonatomic, strong) NSString *name; // the person's name
 @property (nonatomic, strong) NSString *team; // the team name of the person for the hackathon
-@property (nonatomic, assign) BOOL available = YES; // is the leader available (if leader). if hacker, always YES and not used.
+@property (nonatomic, assign) BOOL available; // is the leader available (if leader). if hacker, always YES and not used.
 @property (nonatomic, retain) NSMutableArray *jobs; // if hacker, only job is "hack". if leader, can be stuff like "tech", "food", etc. any size greater than or equal to 1
 
 - (id)initWithType:(NSString *)type andName:(NSString *)name andTeam:(NSString *)team;

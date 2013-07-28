@@ -26,6 +26,7 @@
 		self.name = name;
         self.team = team;
         self.jobs = [NSMutableArray array];
+        self.available = YES;
 	}
     [self store];
     
@@ -43,19 +44,19 @@
 - (void)updateType:(NSString *)type
 {
     self.type = type;
-    [self store];
+    //[self store];
 }
 
 - (void)updateName:(NSString *)name
 {
     self.name = name;
-    [self store];
+    //[self store];
 }
 
 - (void)updateTeam:(NSString *)team
 {
     self.team = team;
-    [self store];
+    //[self store];
 }
 
 - (void)updateAvailability: (BOOL)new_available {
@@ -65,13 +66,13 @@
 - (void)addJob:(NSString *)job
 {
     [self.jobs addObject:job];
-    [self store];
+    //[self store];
 }
 
 - (void)removeJob:(NSString *)job
 {
     [self.jobs removeObject:job];
-    [self store];
+    //[self store];
 }
 
 - (void)store

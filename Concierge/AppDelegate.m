@@ -7,8 +7,9 @@
 //
 
 #import "AppDelegate.h"
-
 #import "ViewController.h"
+
+#import "Person.h"
 
 @implementation AppDelegate
 
@@ -25,6 +26,14 @@
 
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
+    
+    // TODO testing code here
+    Person *person = [[Person alloc] initWithType:@"hacker" andName:@"Kiran" andTeam:@"asdf"];
+    [person addJob:@"eat"];
+    [person setName:@"notKiran"];
+    [person setType:@"leader"];
+    // TODO end testing code here
+    
     return YES;
 }
 
