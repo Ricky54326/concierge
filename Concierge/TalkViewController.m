@@ -1,4 +1,5 @@
 #import "TalkViewController.h"
+#import <Parse/Parse.h>
 
 @implementation TalkViewController
 
@@ -203,3 +204,5 @@
 }
 
 @end
+
+

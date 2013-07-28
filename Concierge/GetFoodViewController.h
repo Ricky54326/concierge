@@ -10,4 +10,6 @@
 
 @interface GetFoodViewController : UITableViewController
 
+@property (nonatomic, strong) NSMutableArray *titles;
+
 @end
