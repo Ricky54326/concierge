@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		158DED9E17C66D8200B11488 /* GetSocialViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 158DED9D17C66D8200B11488 /* GetSocialViewController.xib */; };
+		158DEDA017C66EEF00B11488 /* icon-piazza.png in Resources */ = {isa = PBXBuildFile; fileRef = 158DED9F17C66EEF00B11488 /* icon-piazza.png */; };
+		158DEDA317C673E000B11488 /* icon-facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = 158DEDA117C673E000B11488 /* icon-facebook.png */; };
+		158DEDA417C673E000B11488 /* icon-twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = 158DEDA217C673E000B11488 /* icon-twitter.png */; };
+		158DEDD517C6831D00B11488 /* AnnouncementsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 158DEDD417C6831D00B11488 /* AnnouncementsViewController.m */; };
+		158DEDD817C685FD00B11488 /* GetSocialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 158DEDD717C685FD00B11488 /* GetSocialViewController.m */; };
 		C09AEF2117A4E66800879A4C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C09AEF2017A4E66800879A4C /* UIKit.framework */; };
 		C09AEF2317A4E66800879A4C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C09AEF2217A4E66800879A4C /* Foundation.framework */; };
 		C09AEF2517A4E66800879A4C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C09AEF2417A4E66800879A4C /* CoreGraphics.framework */; };
@@ -97,6 +103,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		158DED9D17C66D8200B11488 /* GetSocialViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GetSocialViewController.xib; sourceTree = "<group>"; };
+		158DED9F17C66EEF00B11488 /* icon-piazza.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-piazza.png"; sourceTree = "<group>"; };
+		158DEDA117C673E000B11488 /* icon-facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-facebook.png"; sourceTree = "<group>"; };
+		158DEDA217C673E000B11488 /* icon-twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-twitter.png"; sourceTree = "<group>"; };
+		158DEDD317C6831D00B11488 /* AnnouncementsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnnouncementsViewController.h; sourceTree = "<group>"; };
+		158DEDD417C6831D00B11488 /* AnnouncementsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnnouncementsViewController.m; sourceTree = "<group>"; };
+		158DEDD617C685FD00B11488 /* GetSocialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetSocialViewController.h; sourceTree = "<group>"; };
+		158DEDD717C685FD00B11488 /* GetSocialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetSocialViewController.m; sourceTree = "<group>"; };
 		C09AEF1D17A4E66800879A4C /* Concierge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Concierge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C09AEF2017A4E66800879A4C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C09AEF2217A4E66800879A4C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -203,6 +217,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1528998B17C6B7B7002F8B1A /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C09AEF4617A4EB9300879A4C /* TalkViewController.h */,
+				C09AEF4717A4EB9300879A4C /* TalkViewController.m */,
+				C09AEF8D17A5292500879A4C /* OpeningViewController.h */,
+				C09AEF8E17A5292500879A4C /* OpeningViewController.m */,
+				C09AEF9E17A532CA00879A4C /* GetFoodViewController.h */,
+				C09AEF9F17A532CA00879A4C /* GetFoodViewController.m */,
+				158DEDD317C6831D00B11488 /* AnnouncementsViewController.h */,
+				158DEDD417C6831D00B11488 /* AnnouncementsViewController.m */,
+				C09AEFA317A532FB00879A4C /* GetTechViewController.h */,
+				C09AEFA417A532FB00879A4C /* GetTechViewController.m */,
+				C09AEF3917A4E66800879A4C /* ViewController.m */,
+				C09AEF4C17A4EBB500879A4C /* ScheduleViewController.h */,
+				C09AEF4D17A4EBB500879A4C /* ScheduleViewController.m */,
+				C09AEF4917A4EBAA00879A4C /* MentorViewController.h */,
+				C09AEF4A17A4EBAA00879A4C /* MentorViewController.m */,
+				C09AEF7E17A51CD500879A4C /* GetServedViewController.h */,
+				C09AEF7F17A51CD500879A4C /* GetServedViewController.m */,
+				158DEDD617C685FD00B11488 /* GetSocialViewController.h */,
+				158DEDD717C685FD00B11488 /* GetSocialViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
 		C09AEF1417A4E66800879A4C = {
 			isa = PBXGroup;
 			children = (
@@ -247,28 +287,12 @@
 		C09AEF2617A4E66800879A4C /* Concierge */ = {
 			isa = PBXGroup;
 			children = (
+				1528998B17C6B7B7002F8B1A /* ViewControllers */,
 				C09AEFC717A544BE00879A4C /* hackmit_candids */,
 				C09AEF9217A529E900879A4C /* Views */,
-				C09AEF4C17A4EBB500879A4C /* ScheduleViewController.h */,
-				C09AEF4D17A4EBB500879A4C /* ScheduleViewController.m */,
-				C09AEF4917A4EBAA00879A4C /* MentorViewController.h */,
-				C09AEF4A17A4EBAA00879A4C /* MentorViewController.m */,
 				C09AEF2F17A4E66800879A4C /* AppDelegate.h */,
 				C09AEF3017A4E66800879A4C /* AppDelegate.m */,
-				C09AEF3917A4E66800879A4C /* ViewController.m */,
 				C09AEF2717A4E66800879A4C /* Supporting Files */,
-				C09AEF4617A4EB9300879A4C /* TalkViewController.h */,
-				C09AEF4717A4EB9300879A4C /* TalkViewController.m */,
-				C09AEF8D17A5292500879A4C /* OpeningViewController.h */,
-				C09AEF8E17A5292500879A4C /* OpeningViewController.m */,
-				C09AEF9E17A532CA00879A4C /* GetFoodViewController.h */,
-				C09AEF9F17A532CA00879A4C /* GetFoodViewController.m */,
-				C09AEFA017A532CA00879A4C /* GetFoodViewController.xib */,
-				C09AEFA317A532FB00879A4C /* GetTechViewController.h */,
-				C09AEFA417A532FB00879A4C /* GetTechViewController.m */,
-				C09AEFA517A532FB00879A4C /* GetTechViewController.xib */,
-				C09AEFAE17A53A1800879A4C /* Twitter.h */,
-				C09AEFAF17A53A1800879A4C /* Twitter.m */,
 			);
 			path = Concierge;
 			sourceTree = "<group>";
@@ -276,7 +300,8 @@
 		C09AEF2717A4E66800879A4C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				C09AF4EA17A57B7900879A4C /* GetServedViewController.xib */,
+				C09AEFAE17A53A1800879A4C /* Twitter.h */,
+				C09AEFAF17A53A1800879A4C /* Twitter.m */,
 				C09AEF6F17A519EB00879A4C /* Message.h */,
 				C09AEF7017A519EB00879A4C /* Message.m */,
 				C09AEF7117A519EB00879A4C /* MessageUtil.h */,
@@ -290,8 +315,6 @@
 				C09AEF3217A4E66800879A4C /* Default.png */,
 				C09AEF3417A4E66800879A4C /* Default@2x.png */,
 				C09AEF3617A4E66800879A4C /* Default-568h@2x.png */,
-				C09AEF7E17A51CD500879A4C /* GetServedViewController.h */,
-				C09AEF7F17A51CD500879A4C /* GetServedViewController.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -299,7 +322,11 @@
 		C09AEF9217A529E900879A4C /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				158DEDA117C673E000B11488 /* icon-facebook.png */,
+				158DEDA217C673E000B11488 /* icon-twitter.png */,
+				158DED9F17C66EEF00B11488 /* icon-piazza.png */,
 				EAC08B4717A5887D00023D84 /* TalkViewController.xib */,
+				C09AF4EA17A57B7900879A4C /* GetServedViewController.xib */,
 				C09AF4EC17A57BC000879A4C /* tech.jpg */,
 				C09AEFFB17A5536E00879A4C /* hackmit_logo.jpeg */,
 				C09AEFAC17A539E500879A4C /* twitter.png */,
@@ -312,6 +339,9 @@
 				C09AF00317A56F3400879A4C /* MentorView.xib */,
 				C09AF00517A5731800879A4C /* OpeningViewController.xib */,
 				C09AF4EE17A58B2D00879A4C /* TalkViewController.xib */,
+				C09AEFA017A532CA00879A4C /* GetFoodViewController.xib */,
+				C09AEFA517A532FB00879A4C /* GetTechViewController.xib */,
+				158DED9D17C66D8200B11488 /* GetSocialViewController.xib */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -414,6 +444,10 @@
 				C09AF4ED17A57BC000879A4C /* tech.jpg in Resources */,
 				EAC08B4817A5887D00023D84 /* TalkViewController.xib in Resources */,
 				C09AF4EF17A58B2D00879A4C /* TalkViewController.xib in Resources */,
+				158DED9E17C66D8200B11488 /* GetSocialViewController.xib in Resources */,
+				158DEDA017C66EEF00B11488 /* icon-piazza.png in Resources */,
+				158DEDA317C673E000B11488 /* icon-facebook.png in Resources */,
+				158DEDA417C673E000B11488 /* icon-twitter.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -464,6 +498,8 @@
 				C09AEFA117A532CA00879A4C /* GetFoodViewController.m in Sources */,
 				C09AEFA617A532FB00879A4C /* GetTechViewController.m in Sources */,
 				C09AEFB017A53A1800879A4C /* Twitter.m in Sources */,
+				158DEDD517C6831D00B11488 /* AnnouncementsViewController.m in Sources */,
+				158DEDD817C685FD00B11488 /* GetSocialViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

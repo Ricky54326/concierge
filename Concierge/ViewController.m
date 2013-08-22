@@ -10,7 +10,7 @@
 #import "TalkViewController.h"
 #import "MentorViewController.h"
 #import "ScheduleViewController.h"
-#import "GetServedViewController.h"
+#import "GetSocialViewController.h"
 #import <QuartzCore/QuartzCore.h>
 
 @interface ViewController () {}
@@ -40,7 +40,7 @@
 }
 
 -(IBAction)comeHitherButtonPressed:(id)sender {
-    UIViewController *vc = [[GetServedViewController alloc] initWithNibName:nil bundle:nil];
+    UIViewController *vc = [[GetSocialViewController alloc] initWithNibName:nil bundle:nil];
     
     [self.navigationController pushViewController:vc animated:YES];
 }
